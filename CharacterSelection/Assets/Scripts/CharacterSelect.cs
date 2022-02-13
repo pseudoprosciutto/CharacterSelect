@@ -4,16 +4,37 @@ using UnityEngine;
 
 public class CharacterSelect : MonoBehaviour
 {
+    public CharacterModel[] characters;
+    public int characterIndex;
+    bool switchNext;
 
-    // Start is called before the first frame update
-    void Start()
+    public SceneChange sceneChange;
+
+    public void NextCharacter()
     {
-        
+        switchNext = true;
+        StartCoroutine(SwitchCharacters((characterIndex + 1) % characters.Length,switchNext));
+    }
+    public void PreviousCharacter()
+    {
+        switchNext = false;
+        StartCoroutine(SwitchCharacters((characterIndex + 1) % characters.Length,switchNext));
     }
 
-    // Update is called once per frame
-    void Update()
+    void BeginGame()
+    {
+        int selectedCharacter = characterIndex;
+        PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
+        sceneChange.LoadNextLevel();
+    }
+    
+
+
+    IEnumerator SwitchCharacters(int nextCharacter, bool animationType)
     {
         
+        yield return new WaitForSeconds(1f);
+
+        yield return null;
     }
 }

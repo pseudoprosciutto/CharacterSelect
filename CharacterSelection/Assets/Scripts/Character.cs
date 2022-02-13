@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : ScriptableObject
+/// <summary>
+/// This is the players character controller for gameplay
+/// </summary>
+public class Character
 {
-    //some of these attributes are just examples or ideas, not all necessary to implement right now
-    public string charName; //this is if we have a name input for select char/ save
-    public CharacterModel model;
+   public CharacterModel model;
 
     public float jumpHeight;
     public float runSpeed;
@@ -28,16 +29,5 @@ public class Character : ScriptableObject
     PlayerInput input;
     PlayerPrefs playerPrefs;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-        
-    }
 }

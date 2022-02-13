@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// A visual representation of the character the player can use in character select
+/// </summary>
+[System.Serializable]
 public class CharacterModel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string characterName;
+    public Sprite characterSprite;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
