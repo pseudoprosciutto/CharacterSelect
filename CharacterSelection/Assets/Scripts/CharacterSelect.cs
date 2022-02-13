@@ -9,17 +9,12 @@ using UnityEngine.UI;
 public class CharacterSelect : MonoBehaviour
 {
     public CharacterPool characterPool;
-    public Text nameText;
-    public SpriteRenderer artworkSprite;
-
-
-   // public CharacterModel[] characters;
+    public Text modelNameText;
+    public SpriteRenderer modelSprite;
     public int characterIndex = 0 ;
-
     public SceneChange sceneChange;
-    public float charChangeCoolDownTime = 1f;
-    
-    public bool ChangeCharCooledDown = true;
+    public float charChangeCoolDownTime = 1f;  
+    public bool changeCharCooledDown = true;
 
     /// <summary>
     /// grab charactermodel from pool
@@ -28,8 +23,8 @@ public class CharacterSelect : MonoBehaviour
     public void UpdateCharacter(int index)
     {
         CharacterModel character = characterPool.GetCharacterModel(index);
-        artworkSprite.sprite = character.characterSprite;
-        nameText.text = character.characterName;
+        modelSprite.sprite = character.characterSprite;
+        modelNameText.text = character.characterName;
 
     }
 
@@ -38,7 +33,7 @@ public class CharacterSelect : MonoBehaviour
     /// </summary>
     public void NextCharacter()
     {
-        if (!ChangeCharCooledDown) { return;  }
+        if (!changeCharCooledDown) { return;  }
         StartCoroutine(ChangeCharCoolingDown());
         print("Next Character");
         StartCoroutine(SwitchCharacters((characterIndex + 1) % characterPool.CharacterCount));
@@ -49,16 +44,16 @@ public class CharacterSelect : MonoBehaviour
     /// </summary>
     public void PreviousCharacter()
     {
-        if (!ChangeCharCooledDown) { return; }
+        if (!changeCharCooledDown) { return; }
         StartCoroutine(ChangeCharCoolingDown());
         print("Prev Character");
         StartCoroutine(SwitchCharacters((characterIndex + 1) % characterPool.CharacterCount));
     }
 
     /// <summary>
-    /// Launch GamePlay Scene
+    /// Select character saves to playerprefs and change scene begins
     /// </summary>
-    void BeginGame()
+    void ChooseCharacter()
     {
         int selectedCharacter = characterIndex;
         PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
@@ -71,17 +66,14 @@ public class CharacterSelect : MonoBehaviour
     /// <returns></returns>
     IEnumerator ChangeCharCoolingDown()
     {
-        ChangeCharCooledDown = false;
+        changeCharCooledDown = false;
         yield return new WaitForSeconds(charChangeCoolDownTime);
         print("character change cooled down");
-        ChangeCharCooledDown = true;
+        changeCharCooledDown = true;
     }
 
-    //thinking about a generic fade in and out of sprites in animation maybe?
-    //the process of switching characters 
-
     /// <summary>
-    /// coroutine to switch characters in case we need time and animation
+    /// switch characters using time for animation
     /// </summary>
     /// <param name="nextCharacter"></param>
     /// <returns></returns>
@@ -90,4 +82,7 @@ public class CharacterSelect : MonoBehaviour
         UpdateCharacter(nextCharacter);
         yield return null;
     }
+
+    //thinking about a generic fade in and out of sprites in animation maybe?
+    //how make the process of switching characters not so jarring ?
 }
