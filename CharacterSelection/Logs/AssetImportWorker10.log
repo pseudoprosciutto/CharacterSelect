@@ -1029,3 +1029,93 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.063504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2090ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (1754ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (594ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (681ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (448ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.2 MB.
+System memory in use after: 214.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2764.
+Total: 5.371426 ms (FindLiveObjects: 0.387318 ms CreateObjectMapping: 0.218175 ms MarkObjects: 4.669775 ms  DeleteObjects: 0.094199 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1381.057884 seconds.
+  path: Assets/Animations/FadeScene.controller
+  artifactKey: Guid(2d4d34c2ce8644fee89648a21f232794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/FadeScene.controller using Guid(2d4d34c2ce8644fee89648a21f232794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adff724dc54087980e0e2befcf90dbc7') in 0.465820 seconds 
+  Import took 0.496643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.532055 seconds.
+  path: Assets/Animations/CrossFade.anim
+  artifactKey: Guid(9a46102d320ed4a3da5e34ee855554ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CrossFade.anim using Guid(9a46102d320ed4a3da5e34ee855554ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50c228d592d1a60f93a87a7b3b07716') in 0.453740 seconds 
+  Import took 0.467108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 377.104381 seconds.
+  path: Assets/Animations/SceneBlackIn.anim
+  artifactKey: Guid(4fbc190aa47f4411fb364cebf5aeb1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SceneBlackIn.anim using Guid(4fbc190aa47f4411fb364cebf5aeb1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f68752a9a8c2840dcd5f379660439ef') in 0.061696 seconds 
+  Import took 0.067821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.555835 seconds.
+  path: Assets/Animations/SceneBlackOut.anim
+  artifactKey: Guid(64c2a848b67614f67b3c2edc72b33d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SceneBlackOut.anim using Guid(64c2a848b67614f67b3c2edc72b33d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e258c7906493c870dfffcd5d4a9eee9c') in 0.005760 seconds 
+  Import took 0.062653 seconds .
+
