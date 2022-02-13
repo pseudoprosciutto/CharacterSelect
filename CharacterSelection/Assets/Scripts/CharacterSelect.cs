@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 /// <summary>
 /// manages character pool for create character select system
@@ -9,12 +10,22 @@ using UnityEngine.UI;
 public class CharacterSelect : MonoBehaviour
 {
     public CharacterPool characterPool;
-    public Text modelNameText;
+    public TextMeshProUGUI modelNameText;
     public SpriteRenderer modelSprite;
     public int characterIndex = 0 ;
     public SceneChange sceneChange;
     public float charChangeCoolDownTime = 1f;  
     public bool changeCharCooledDown = true;
+
+
+    private void Awake()
+    {
+//        modelSprite = GetComponent<SpriteRenderer>();
+    }
+    private void Start()
+    {
+        UpdateCharacter(characterIndex);
+    }
 
     /// <summary>
     /// grab charactermodel from pool
@@ -33,10 +44,14 @@ public class CharacterSelect : MonoBehaviour
     /// </summary>
     public void NextCharacter()
     {
+        print("Next Character");
         if (!changeCharCooledDown) { return;  }
         StartCoroutine(ChangeCharCoolingDown());
-        print("Next Character");
-        StartCoroutine(SwitchCharacters((characterIndex + 1) % characterPool.CharacterCount));
+        characterIndex++;
+        if (characterIndex >= characterPool.CharacterCount) characterIndex = 0;
+        StartCoroutine(SwitchCharacters(characterIndex));
+//        StartCoroutine(SwitchCharacters((characterIndex + 1) % characterPool.CharacterCount));
+
     }
 
     /// <summary>
@@ -47,13 +62,16 @@ public class CharacterSelect : MonoBehaviour
         if (!changeCharCooledDown) { return; }
         StartCoroutine(ChangeCharCoolingDown());
         print("Prev Character");
-        StartCoroutine(SwitchCharacters((characterIndex + 1) % characterPool.CharacterCount));
+        characterIndex--;
+        if (characterIndex < 0) characterIndex = characterPool.CharacterCount - 1;
+        StartCoroutine(SwitchCharacters(characterIndex));
+//      StartCoroutine(SwitchCharacters((characterIndex + 1) % characterPool.CharacterCount));
     }
 
     /// <summary>
     /// Select character saves to playerprefs and change scene begins
     /// </summary>
-    void ChooseCharacter()
+    public void ChooseCharacter()
     {
         int selectedCharacter = characterIndex;
         PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
