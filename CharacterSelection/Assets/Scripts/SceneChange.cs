@@ -36,6 +36,12 @@ public class SceneChange : MonoBehaviour
         print("load Next Level");
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+
     /// <summary>
     /// Trigger scene change animation and change scene.
     /// </summary>
