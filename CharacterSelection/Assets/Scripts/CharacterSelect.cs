@@ -12,18 +12,24 @@ public class CharacterSelect : MonoBehaviour
     public CharacterPool characterPool;
     public TextMeshProUGUI modelNameText;
     public SpriteRenderer modelSprite;
-    public int characterIndex = 0 ;
+    public int characterIndex = 0;
     public SceneChange sceneChange;
-    public float charChangeCoolDownTime = 1f;  
+    public float charChangeCoolDownTime = .02f;
     public bool changeCharCooledDown = true;
 
 
     private void Awake()
     {
-//        modelSprite = GetComponent<SpriteRenderer>();
+        //        modelSprite = GetComponent<SpriteRenderer>();
     }
     private void Start()
     {
+        //StartCoroutine(LoadSelectScreen());
+        UpdateCharacter(characterIndex);
+    }
+
+    IEnumerator LoadSelectScreen() {
+        yield return new WaitForSeconds(.5f);
         UpdateCharacter(characterIndex);
     }
 
@@ -44,7 +50,7 @@ public class CharacterSelect : MonoBehaviour
     /// </summary>
     public void NextCharacter()
     {
-        print("Next Character");
+//        print("Next Character");
         if (!changeCharCooledDown) { return;  }
         StartCoroutine(ChangeCharCoolingDown());
         characterIndex++;
@@ -61,7 +67,7 @@ public class CharacterSelect : MonoBehaviour
     {
         if (!changeCharCooledDown) { return; }
         StartCoroutine(ChangeCharCoolingDown());
-        print("Prev Character");
+//        print("Prev Character");
         characterIndex--;
         if (characterIndex < 0) characterIndex = characterPool.CharacterCount - 1;
         StartCoroutine(SwitchCharacters(characterIndex));
@@ -86,7 +92,7 @@ public class CharacterSelect : MonoBehaviour
     {
         changeCharCooledDown = false;
         yield return new WaitForSeconds(charChangeCoolDownTime);
-        print("character change cooled down");
+//        print("character change cooled down");
         changeCharCooledDown = true;
     }
 
