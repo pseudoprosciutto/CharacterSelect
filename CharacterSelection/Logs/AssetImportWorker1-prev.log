@@ -22,66 +22,66 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54103
+58034
 Successfully changed project path to: /Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
 /Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 270.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path /Applications/Unity/EditorsFolder/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection/Assets
 GfxDevice: creating device client; threaded=0
-2022-02-12 16:31:47.999 Unity[3295:60892] Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
-2022-02-12 16:31:47.999 Unity[3295:60892] Metal devices available: 2
-2022-02-12 16:31:48.000 Unity[3295:60892] 0: NVIDIA GeForce GT 650M (high power)
-2022-02-12 16:31:48.000 Unity[3295:60892] 1: Intel HD Graphics 4000 (low power)
-2022-02-12 16:31:48.001 Unity[3295:60892] Using device NVIDIA GeForce GT 650M (high power)
+2022-02-13 15:41:37.807 Unity[21803:364020] Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
+2022-02-13 15:41:37.807 Unity[21803:364020] Metal devices available: 2
+2022-02-13 15:41:37.807 Unity[21803:364020] 0: NVIDIA GeForce GT 650M (high power)
+2022-02-13 15:41:37.807 Unity[21803:364020] 1: Intel HD Graphics 4000 (low power)
+2022-02-13 15:41:37.808 Unity[21803:364020] Using device NVIDIA GeForce GT 650M (high power)
 Initializing Metal device caps: NVIDIA GeForce GT 650M
 Initialize mono
 Mono path[0] = '/Applications/Unity/EditorsFolder/2020.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/EditorsFolder/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/EditorsFolder/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56295
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56803
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/EditorsFolder/2020.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/EditorsFolder/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/EditorsFolder/2020.3.19f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.079446 seconds.
+Registered in 0.001312 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.911 seconds
+- Completed reload, in  4.084 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11912ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (4084ms)
+		BeginReloadAssembly (93ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1587ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (270ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (576ms)
+			SetupTypeCache (340ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (137ms)
-			SetupLoadedEditorAssemblies (694ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (452ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (124ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (364ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.182137 seconds.
+Registered in 0.048744 seconds.

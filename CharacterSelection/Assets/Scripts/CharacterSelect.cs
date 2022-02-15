@@ -24,14 +24,11 @@ public class CharacterSelect : MonoBehaviour
     }
     private void Start()
     {
-        //StartCoroutine(LoadSelectScreen());
+    
         UpdateCharacter(characterIndex);
     }
 
-    IEnumerator LoadSelectScreen() {
-        yield return new WaitForSeconds(.5f);
-        UpdateCharacter(characterIndex);
-    }
+   
 
     /// <summary>
     /// grab charactermodel from pool
