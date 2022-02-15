@@ -36,12 +36,8 @@ public class SceneChange : MonoBehaviour
         print("load Next Level");
     }
 
-    /// <summary>
-    /// Quits running application
-    /// </summary>
     public void QuitGame()
     {
-        print("Game Quitting");
         Application.Quit();
     }
 
