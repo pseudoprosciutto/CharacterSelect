@@ -2,3 +2,5 @@ Base path: '/Applications/Unity/EditorsFolder/2020.3.19f1/Unity.app/Contents', p
 Cmd: initializeCompiler
 
 Cmd: shutdown
+
+Quitting shader compiler process
