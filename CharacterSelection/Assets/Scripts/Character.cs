@@ -30,8 +30,7 @@ public class Character : MonoBehaviour
 
     public void LoadSprite()
     {
-        spriteRenderer.sprite = model.characterSprite;
-        
+        spriteRenderer.sprite = model.characterSprite;        
     }
 
 
