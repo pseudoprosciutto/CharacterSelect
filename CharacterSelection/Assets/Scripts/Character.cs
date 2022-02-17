@@ -5,29 +5,33 @@ using UnityEngine;
 /// <summary>
 /// This is the players character controller for gameplay
 /// </summary>
-public class Character
-{
+public class Character : MonoBehaviour
+{ 
    public CharacterModel model;
+    public Sprite sprite;
+    public int Score;
+    SpriteRenderer spriteRenderer;
 
     public float jumpHeight;
     public float runSpeed;
     public float walkSpeed;
-    public int Score;
-
-    public int EnergyLevel;
-    public int EnergyMod;
 
 
 
-    public enum HungerState { Hungry, Sated, Starving, Full };
-    public HungerState hungerState;
 
     [Space]
     public int currentLevel;
     public Waypoint CurrentWaypoint;
 
-    PlayerInput input;
-    PlayerPrefs playerPrefs;
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    public void LoadSprite()
+    {
+        spriteRenderer.sprite = model.characterSprite;        
+    }
 
 
 }

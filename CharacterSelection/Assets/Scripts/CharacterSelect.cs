@@ -26,7 +26,6 @@ public class CharacterSelect : MonoBehaviour
     {
         UpdateCharacter(characterIndex);
     }
-
     /// <summary>
     /// grab charactermodel from pool
     /// </summary>

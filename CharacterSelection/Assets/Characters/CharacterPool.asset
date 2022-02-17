@@ -21,3 +21,5 @@ MonoBehaviour:
     characterSprite: {fileID: 5823479570893929577, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
   - characterName: Character type 4
     characterSprite: {fileID: -8241933452771357945, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
+  - characterName: Matilda
+    characterSprite: {fileID: 6064590988614646554, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
