@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerControls : MonoBehaviour
     public GameObject player;
     public bool running;
     public bool atStore;
+    public bool isJumping;
     public GameObject prompt;
     private Collider2D store;
     public GameObject money;
@@ -21,6 +23,7 @@ public class PlayerControls : MonoBehaviour
         drain = meter.GetComponent<EnergyDrain>();
         running = false;
         atStore = false;
+        isJumping = false;
         prompt.SetActive(false);
         drain.currentEffort = EffortType.None;
         moneyCount = int.Parse(money.GetComponent<Text>().text);
@@ -29,27 +32,54 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!Input.GetKey(KeyCode.LeftShift) && Input.GetAxis("Horizontal") != 0)
+        if (!Keyboard.current.leftShiftKey.isPressed)
         {
             running = false;
-            drain.currentEffort = EffortType.Walk;
-            float translation = Input.GetAxis("Horizontal") * 10 * Time.deltaTime;
-            player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            //drain.currentEffort = EffortType.Walk;
+            if (Keyboard.current.leftArrowKey.isPressed)
+            {
+                drain.currentEffort = EffortType.Walk;
+                float translation = -1 * 10 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
+            else if (Keyboard.current.rightArrowKey.isPressed)
+            {
+                drain.currentEffort = EffortType.Walk;
+                float translation = 1 * 10 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
         }
-        else if (Input.GetKey(KeyCode.LeftShift)){
+        else if (Keyboard.current.leftShiftKey.isPressed)
+        {
             running = true;
             drain.currentEffort = EffortType.Run;
-            float translation = Input.GetAxis("Horizontal") * 40 * Time.deltaTime;
-            player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            if (Keyboard.current.leftArrowKey.isPressed)
+            {
+                float translation = -1 * 40 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
+            else if (Keyboard.current.rightArrowKey.isPressed)
+            {
+                float translation = 1 * 40 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
         }
 
-        if (Input.GetKeyUp(KeyCode.Space)){
-            drain.currentEffort = EffortType.Jump;
-            float translation = 3000 * Time.deltaTime;
+        if (isJumping)
+        {
+            float translation = 10f;
             player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
+            Debug.Log(player.GetComponent<Rigidbody2D>().velocity);
+            isJumping = false;
+            drain.currentEffort = EffortType.None;
+        }
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            isJumping = true;
+            drain.currentEffort = EffortType.Jump;
         }
 
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Keyboard.current.eKey.wasPressedThisFrame)
         {
             if (atStore)
             {

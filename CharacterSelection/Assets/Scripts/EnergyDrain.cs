@@ -50,7 +50,6 @@ public class EnergyDrain : MonoBehaviour
         {
             energyMeter.value -= jumpDrain;
             jump = false;
-            currentEffort = EffortType.None;
         }
     }
 
@@ -76,6 +75,7 @@ public class EnergyDrain : MonoBehaviour
         if (currentEffort == EffortType.Jump)
         {
             jumpDrain = 5f;
+            effortDrain = 0f;
             jump = true;
         }
         else if(currentEffort == EffortType.Walk)
