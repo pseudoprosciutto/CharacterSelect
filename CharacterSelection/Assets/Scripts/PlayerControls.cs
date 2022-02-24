@@ -17,6 +17,7 @@ public class PlayerControls : MonoBehaviour
     public GameObject money;
     public GameObject signPool;
     public int moneyCount;
+    public GameObject Pointer;
 
     public List<GameObject> tasks;
 
@@ -114,6 +115,7 @@ public class PlayerControls : MonoBehaviour
         {
             col.gameObject.SetActive(false);
             tasks[Random.Range(0, tasks.Count - 1)].SetActive(true);
+            Pointer.SetActive(true);
         }
         if (col.CompareTag("Job"))
         {
