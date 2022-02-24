@@ -71,7 +71,7 @@ public class PlayerControls : MonoBehaviour
 
         if (isJumping)
         {
-            float translation = 10f;
+            float translation = 12f;
             player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
             Debug.Log(player.GetComponent<Rigidbody2D>().velocity);
             isJumping = false;
@@ -122,6 +122,14 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
+    void OnCollision2D(Collider2D col)
+    {
+        if (col.CompareTag("Food"))
+        {
+            col.isTrigger = false;
+        }
+    }
+
     void OnTriggerExit2D(Collider2D col)
     {
         if (col.CompareTag("Food"))
@@ -129,6 +137,7 @@ public class PlayerControls : MonoBehaviour
             prompt.SetActive(false);
             atStore = false;
             store = null;
+            col.isTrigger = false;
         }
     }
 }

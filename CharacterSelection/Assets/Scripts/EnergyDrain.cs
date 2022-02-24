@@ -64,12 +64,12 @@ public class EnergyDrain : MonoBehaviour
         else if (currentFood == FoodType.Good)
         {
             foodDrain = 0.5f;
-            food = 6f;
+            food = 7f;
         }
         else if (currentFood == FoodType.Poor)
         {
-            foodDrain = 1f;
-            food = 4f;
+            foodDrain = 0.8f;
+            food = 5f;
         }
 
         if (currentEffort == EffortType.Jump)
