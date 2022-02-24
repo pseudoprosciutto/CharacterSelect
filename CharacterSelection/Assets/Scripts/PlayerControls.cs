@@ -18,7 +18,7 @@ public class PlayerControls : MonoBehaviour
     public GameObject signPool;
     public int moneyCount;
     public GameObject Pointer;
-
+    public List<GameObject> activejobs;
     public List<GameObject> tasks;
 
     // Start is called before the first frame update
@@ -113,9 +113,36 @@ public class PlayerControls : MonoBehaviour
         }
         if (col.CompareTag("Sign"))
         {
+            //Pointer.SetActive(true);
+
+            int range = Random.Range(1, 3);
+            int i = 0;
+            int index = Random.Range(0, tasks.Count - 1);
+            JobType jobType;
             col.gameObject.SetActive(false);
-            tasks[Random.Range(0, tasks.Count - 1)].SetActive(true);
-            Pointer.SetActive(true);
+            if (range == 1)
+            {
+                jobType = JobType.Great;
+            }
+            else if (range == 2)
+            {
+                jobType = JobType.Good;
+            }
+            else
+            {
+                jobType = JobType.Poor;
+            }
+            while (i < range)
+            {
+                while (tasks[index].activeSelf == true)
+                {
+                    index = Random.Range(0, tasks.Count - 1);
+                }
+                tasks[index].SetActive(true);
+                tasks[index].GetComponent<Job>().jobType = jobType;
+                activejobs.Add(tasks[index]);
+                i++;
+            }
         }
         if (col.CompareTag("Job"))
         {
@@ -142,4 +169,6 @@ public class PlayerControls : MonoBehaviour
             col.isTrigger = false;
         }
     }
+
+
 }
