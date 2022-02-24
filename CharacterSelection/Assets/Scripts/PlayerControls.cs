@@ -15,7 +15,10 @@ public class PlayerControls : MonoBehaviour
     public GameObject prompt;
     private Collider2D store;
     public GameObject money;
+    public GameObject signPool;
     public int moneyCount;
+
+    public List<GameObject> tasks;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +30,7 @@ public class PlayerControls : MonoBehaviour
         prompt.SetActive(false);
         drain.currentEffort = EffortType.None;
         moneyCount = int.Parse(money.GetComponent<Text>().text);
+        tasks = signPool.GetComponent<JobSignPool>().tasks;
     }
 
     // Update is called once per frame
@@ -105,6 +109,16 @@ public class PlayerControls : MonoBehaviour
             prompt.SetActive(true);
             atStore = true;
             store = col;
+        }
+        if (col.CompareTag("Sign"))
+        {
+            col.gameObject.SetActive(false);
+            tasks[Random.Range(0, tasks.Count - 1)].SetActive(true);
+        }
+        if (col.CompareTag("Job"))
+        {
+            col.gameObject.SetActive(false);
+            moneyCount += col.GetComponent<Job>().cost;
         }
     }
 
