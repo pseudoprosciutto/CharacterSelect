@@ -6,18 +6,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
 {
-    private PlayerInput playerInput;
-    private InputAction jump;
-    private InputAction move;
-    private InputAction interact;
-    private InputAction sprint;
-    private Vector2 movementVector;
-
     public GameObject meter;
     public EnergyDrain drain;
     public GameObject player;
     public bool running;
-    public bool walking;
     public bool atStore;
     public bool isJumping;
     public GameObject prompt;
@@ -25,22 +17,12 @@ public class PlayerControls : MonoBehaviour
     public GameObject money;
     public GameObject signPool;
     public int moneyCount;
-
+    public GameObject Pointer;
+    public List<GameObject> activejobs;
     public List<GameObject> tasks;
     public List<GameObject> activejobs;
 
-    void Awake()
-    {
-        //playerInput = GetComponent<PlayerInput>();
-        //jump = playerInput.actions["Jump"];
-        //jump.ReadValue<float>();
-        //move = playerInput.actions["Move"];
-        //move.ReadValue<float>();
-        //interact = playerInput.actions["Interaction"];
-        //interact.ReadValue<float>();
-        //sprint = playerInput.actions["Sprint"];
-        //sprint.ReadValue<float>();
-    }
+    //var gamepad;
 
     // Start is called before the first frame update
     void Start()
@@ -59,76 +41,100 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (walking)
-        {
-            if (running)
-            {
-                float move = movementVector.x * 40 * Time.deltaTime;
-                player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-            }
-            else
-            {
-                float move = movementVector.x * 10 * Time.deltaTime;
-                player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-            }
-        }
-    }
-
-    public void OnMove(InputValue movementValue)
-    {
-        if (walking)
-        {
-            walking = false;
-            movementVector = Vector2.zero;
-        }
-        else
-        {
-            walking = true;
-            movementVector = movementValue.Get<Vector2>();
-        }
-    }
-
-    public void OnJump()
-    {
-        isJumping = true;
-        drain.currentEffort = EffortType.Jump;
-    }
-
-    public void OnInteraction()
-    {
-        if (atStore)
-        {
-            if (moneyCount >= store.GetComponent<food>().cost)
-            {
-                drain.currentFood = store.GetComponent<food>().foodEat;
-                drain.eat = true;
-                moneyCount -= store.GetComponent<food>().cost;
-            }
-        }
-    }
-
-    public void OnSprint()
-    {
-        if (running)
+        if (!Keyboard.current.leftShiftKey.isPressed)
         {
             running = false;
+            //drain.currentEffort = EffortType.Walk;
+            if (Keyboard.current.leftArrowKey.isPressed)
+            {
+                drain.currentEffort = EffortType.Walk;
+                float translation = -1 * 10 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
+            else if (Keyboard.current.rightArrowKey.isPressed)
+            {
+                drain.currentEffort = EffortType.Walk;
+                float translation = 1 * 10 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
         }
-        else if (walking)
+        else if (Keyboard.current.leftShiftKey.isPressed)
         {
             running = true;
+            drain.currentEffort = EffortType.Run;
+            if (Keyboard.current.leftArrowKey.isPressed)
+            {
+                float translation = -1 * 40 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
+            else if (Keyboard.current.rightArrowKey.isPressed)
+            {
+                float translation = 1 * 40 * Time.deltaTime;
+                player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
+            }
         }
+        //else if (!gamepad.current.leftTrigger.isPressed)
+        //{
+        //    running = false;
+        //    drain.currentEffort = EffortType.Walk;
+        //    float move = gamepad.leftStick.x * 40 * Time.deltaTime;
+        //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
+        //}
+        //else if (gamepad.current.leftTrigger.isPressed)
+        //{
+        //    running = true;
+        //    drain.currentEffort = EffortType.Run;
+        //    float move = gamepad.leftStick.x * 40 * Time.deltaTime;
+        //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
+        //}
+
+        if (isJumping)
+        {
+            float translation = 12f;
+            player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
+            isJumping = false;
+            drain.currentEffort = EffortType.None;
+        }
+        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            isJumping = true;
+            drain.currentEffort = EffortType.Jump;
+        }
+        //else if (gamepad.current.buttonSouth.wasPressedThisFrame)
+        //{
+        //    isJumping = true;
+        //    drain.currentEffort = EffortType.Jump;
+        //}
+
+        if (Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            if (atStore)
+            {
+                if (moneyCount >= store.GetComponent<food>().cost)
+                {
+                    drain.currentFood = store.GetComponent<food>().foodEat;
+                    drain.eat = true;
+                    moneyCount -= store.GetComponent<food>().cost;
+                }
+            }
+        }
+        //else if (gamepad.current.buttonWest.wasPressedThisFrame)
+        //{
+        //    if (atStore)
+        //    {
+        //        if (moneyCount >= store.GetComponent<food>().cost)
+        //        {
+        //            drain.currentFood = store.GetComponent<food>().foodEat;
+        //            drain.eat = true;
+        //            moneyCount -= store.GetComponent<food>().cost;
+        //        }
+        //    }
+        //}
     }
 
     void FixedUpdate()
     {
         money.GetComponent<Text>().text = moneyCount.ToString();
-        if (isJumping)
-        {
-            float translation = 10f;
-            player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
-            isJumping = false;
-            drain.currentEffort = EffortType.None;
-        }
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -141,6 +147,7 @@ public class PlayerControls : MonoBehaviour
         }
         if (col.CompareTag("Sign"))
         {
+
             int range = Random.Range(1, 3);
             int i = 0;
             int index = Random.Range(0, tasks.Count - 1);
@@ -150,6 +157,7 @@ public class PlayerControls : MonoBehaviour
             {
                 jobType = JobType.Great;
             }
+
             else if(range == 2)
             {
                 jobType = JobType.Good;
@@ -210,4 +218,5 @@ public class PlayerControls : MonoBehaviour
             col.collider.isTrigger = true;
         }
     }
+
 }
