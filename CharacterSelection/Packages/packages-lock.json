@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.unity.2d.animation": {
-      "version": "6.0.1",
-      "depth": 0,
+      "version": "6.0.7",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "5.0.0",
@@ -38,12 +38,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.psdimporter": {
-      "version": "5.0.1",
+      "version": "5.0.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.common": "5.0.0",
-        "com.unity.2d.animation": "6.0.1",
+        "com.unity.2d.animation": "6.0.7",
         "com.unity.2d.sprite": "1.0.0"
       },
       "url": "https://packages.unity.com"
@@ -73,7 +73,7 @@
       "dependencies": {}
     },
     "com.unity.cinemachine": {
-      "version": "2.7.3",
+      "version": "2.7.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -94,10 +94,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.5",
+      "version": "3.0.6",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {

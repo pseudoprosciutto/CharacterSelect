@@ -9,6 +9,7 @@ public class MenuManager : MonoBehaviour
     public void DisableAbout() { AboutScreen.SetActive(false); }
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,4 +22,5 @@ public class MenuManager : MonoBehaviour
     {
         
     }
+    
 }
