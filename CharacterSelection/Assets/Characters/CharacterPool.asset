@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - characterName: Character type 1
-    characterSprite: {fileID: -2182951462595903330, guid: c559be3068ffc2a45a2a9d1bf485c8a8, type: 3}
+    characterSprite: {fileID: -5744340447670342355, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
   - characterName: Character type 2
-    characterSprite: {fileID: 6384506037088526908, guid: c559be3068ffc2a45a2a9d1bf485c8a8, type: 3}
+    characterSprite: {fileID: -4251768712096742070, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
   - characterName: Character type 3
-    characterSprite: {fileID: 8484834154550888491, guid: c559be3068ffc2a45a2a9d1bf485c8a8, type: 3}
+    characterSprite: {fileID: 5823479570893929577, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
   - characterName: Character type 4
-    characterSprite: {fileID: -6840048100579093860, guid: c559be3068ffc2a45a2a9d1bf485c8a8, type: 3}
+    characterSprite: {fileID: -8241933452771357945, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
+  - characterName: Matilda
+    characterSprite: {fileID: 6064590988614646554, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}

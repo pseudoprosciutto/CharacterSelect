@@ -18,12 +18,6 @@ public class PlayerControls : MonoBehaviour
     public GameObject signPool;
     public int moneyCount;
 
-    public BoxCollider2D playerCollider;
-
-
-
-
-
     public List<GameObject> tasks;
 
     // Start is called before the first frame update

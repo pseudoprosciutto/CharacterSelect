@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// This is the players character visual look animation and states
+/// This is the players character controller for gameplay
 /// </summary>
 public class Character : MonoBehaviour
 { 
    public CharacterModel model;
-    public Sprite idleSprite;
-    
+    public Sprite sprite;
+    public int Score;
     SpriteRenderer spriteRenderer;
 
-    
-    
+    public float jumpHeight;
+    public float runSpeed;
+    public float walkSpeed;
+
 
 
 
@@ -28,12 +30,8 @@ public class Character : MonoBehaviour
 
     public void LoadSprite()
     {
-        spriteRenderer.sprite = model.characterSprite;
-        SetSpriteBounds();
+        spriteRenderer.sprite = model.characterSprite;        
     }
 
-    void SetSpriteBounds() { }
-
-    
 
 }

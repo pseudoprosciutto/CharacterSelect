@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Selection Scene.unity
     guid: 963b1adbc452a4dbc8145662288ab4d8
   - enabled: 1
-    path: Assets/Scenes/_Play Hybrid.unity
-    guid: 5b4e1dda3f84f7040b31dc8c490523e7
-  - enabled: 1
     path: Assets/Scenes/GamePlay.unity
     guid: 67675362c82d843348b85f087075382d
   m_configObjects:
