@@ -93,4 +93,3 @@ Received Import Request.
   path: Assets/Prefab/Rad Red.prefab
   artifactKey: Guid(65bb336619c704c6ba25827717253985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefab/Rad Red.prefab using Guid(65bb336619c704c6ba25827717253985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1886591472ac7a20e140b23e742ab6') in 0.012176 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
