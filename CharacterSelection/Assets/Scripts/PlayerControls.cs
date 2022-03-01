@@ -29,19 +29,6 @@ public class PlayerControls : MonoBehaviour
     public List<GameObject> tasks;
     public List<GameObject> activejobs;
 
-    void Awake()
-    {
-        //playerInput = GetComponent<PlayerInput>();
-        //jump = playerInput.actions["Jump"];
-        //jump.ReadValue<float>();
-        //move = playerInput.actions["Move"];
-        //move.ReadValue<float>();
-        //interact = playerInput.actions["Interaction"];
-        //interact.ReadValue<float>();
-        //sprint = playerInput.actions["Sprint"];
-        //sprint.ReadValue<float>();
-    }
-
     // Start is called before the first frame update
     void Start()
     {
