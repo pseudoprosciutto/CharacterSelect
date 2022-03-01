@@ -49,22 +49,6 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
-                },
-                {
-                    ""name"": ""Jump"",
-                    ""type"": ""Button"",
-                    ""id"": ""49817305-c2ef-43bb-b172-9688a2c23086"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
-                    ""name"": ""Sprint"",
-                    ""type"": ""Button"",
-                    ""id"": ""6590d78a-408e-44c8-ac8c-f63aa8c88729"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -72,7 +56,7 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""978bfe49-cc26-4a3d-ab7b-7d7a29327403"",
                     ""path"": ""<Gamepad>/leftStick"",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Gamepad"",
                     ""action"": ""Move"",
@@ -83,7 +67,7 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
                     ""name"": ""WASD"",
                     ""id"": ""00ca640b-d935-4593-8157-c05846ea39b3"",
                     ""path"": ""Dpad"",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Move"",
@@ -291,8 +275,8 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""9b4be72c-797b-41d0-9e0f-14a862696644"",
-                    ""path"": ""<Keyboard>/#(E)"",
-                    ""interactions"": ""Tap"",
+                    ""path"": ""*/{PrimaryTrigger}"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Interaction"",
@@ -302,55 +286,11 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""7a7584c0-8321-4542-8b1f-b9ddc28bbdf5"",
-                    ""path"": ""<Gamepad>/buttonWest"",
-                    ""interactions"": ""Tap"",
+                    ""path"": """",
+                    ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Gamepad;Keyboard&Mouse"",
+                    ""groups"": ""Gamepad"",
                     ""action"": ""Interaction"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""0389ffa8-d264-4559-bcb4-5cd3ad68362d"",
-                    ""path"": ""<Keyboard>/space"",
-                    ""interactions"": ""Tap"",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Jump"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9aa265aa-2413-4a34-8030-7dcded3b6d29"",
-                    ""path"": ""<Gamepad>/buttonSouth"",
-                    ""interactions"": ""Tap"",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Jump"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""8745c2b3-1b2e-4e6e-9589-c117d3a8d523"",
-                    ""path"": ""<Gamepad>/leftTrigger"",
-                    ""interactions"": ""Press(behavior=2)"",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Sprint"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""8416170f-e065-4131-a3a6-8bdfdc0c0293"",
-                    ""path"": ""<Keyboard>/leftShift"",
-                    ""interactions"": ""Press(behavior=2)"",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Sprint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -932,8 +872,6 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_Interaction = m_Player.FindAction("Interaction", throwIfNotFound: true);
-        m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
-        m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -999,8 +937,6 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_Interaction;
-    private readonly InputAction m_Player_Jump;
-    private readonly InputAction m_Player_Sprint;
     public struct PlayerActions
     {
         private @CharacterSelection m_Wrapper;
@@ -1009,8 +945,6 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @Interaction => m_Wrapper.m_Player_Interaction;
-        public InputAction @Jump => m_Wrapper.m_Player_Jump;
-        public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1032,12 +966,6 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
                 @Interaction.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteraction;
                 @Interaction.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteraction;
                 @Interaction.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteraction;
-                @Jump.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
-                @Jump.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
-                @Jump.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnJump;
-                @Sprint.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
-                @Sprint.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
-                @Sprint.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1054,12 +982,6 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
                 @Interaction.started += instance.OnInteraction;
                 @Interaction.performed += instance.OnInteraction;
                 @Interaction.canceled += instance.OnInteraction;
-                @Jump.started += instance.OnJump;
-                @Jump.performed += instance.OnJump;
-                @Jump.canceled += instance.OnJump;
-                @Sprint.started += instance.OnSprint;
-                @Sprint.performed += instance.OnSprint;
-                @Sprint.canceled += instance.OnSprint;
             }
         }
     }
@@ -1220,8 +1142,6 @@ public class @CharacterSelection : IInputActionCollection, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
         void OnInteraction(InputAction.CallbackContext context);
-        void OnJump(InputAction.CallbackContext context);
-        void OnSprint(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
