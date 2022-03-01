@@ -20,9 +20,6 @@ public class PlayerControls : MonoBehaviour
     public GameObject Pointer;
     public List<GameObject> activejobs;
     public List<GameObject> tasks;
-    public List<GameObject> activejobs;
-
-    //var gamepad;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +32,6 @@ public class PlayerControls : MonoBehaviour
         drain.currentEffort = EffortType.None;
         moneyCount = int.Parse(money.GetComponent<Text>().text);
         tasks = signPool.GetComponent<JobSignPool>().tasks;
-        //gamepad = InputSystem.AddDevice<Gamepad>();
     }
 
     // Update is called once per frame
@@ -73,25 +69,12 @@ public class PlayerControls : MonoBehaviour
                 player.GetComponent<Rigidbody2D>().velocity += new Vector2(translation, 0);
             }
         }
-        //else if (!gamepad.current.leftTrigger.isPressed)
-        //{
-        //    running = false;
-        //    drain.currentEffort = EffortType.Walk;
-        //    float move = gamepad.leftStick.x * 40 * Time.deltaTime;
-        //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-        //}
-        //else if (gamepad.current.leftTrigger.isPressed)
-        //{
-        //    running = true;
-        //    drain.currentEffort = EffortType.Run;
-        //    float move = gamepad.leftStick.x * 40 * Time.deltaTime;
-        //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-        //}
 
         if (isJumping)
         {
             float translation = 12f;
             player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
+            Debug.Log(player.GetComponent<Rigidbody2D>().velocity);
             isJumping = false;
             drain.currentEffort = EffortType.None;
         }
@@ -100,11 +83,6 @@ public class PlayerControls : MonoBehaviour
             isJumping = true;
             drain.currentEffort = EffortType.Jump;
         }
-        //else if (gamepad.current.buttonSouth.wasPressedThisFrame)
-        //{
-        //    isJumping = true;
-        //    drain.currentEffort = EffortType.Jump;
-        //}
 
         if (Keyboard.current.eKey.wasPressedThisFrame)
         {
@@ -118,18 +96,6 @@ public class PlayerControls : MonoBehaviour
                 }
             }
         }
-        //else if (gamepad.current.buttonWest.wasPressedThisFrame)
-        //{
-        //    if (atStore)
-        //    {
-        //        if (moneyCount >= store.GetComponent<food>().cost)
-        //        {
-        //            drain.currentFood = store.GetComponent<food>().foodEat;
-        //            drain.eat = true;
-        //            moneyCount -= store.GetComponent<food>().cost;
-        //        }
-        //    }
-        //}
     }
 
     void FixedUpdate()
@@ -147,6 +113,7 @@ public class PlayerControls : MonoBehaviour
         }
         if (col.CompareTag("Sign"))
         {
+<<<<<<< HEAD
 
             int range = Random.Range(1, 3);
             int i = 0;
@@ -177,26 +144,23 @@ public class PlayerControls : MonoBehaviour
                 activejobs.Add(tasks[index]);
                 i++;
             }
+=======
+            col.gameObject.SetActive(false);
+            tasks[Random.Range(0, tasks.Count - 1)].SetActive(true);
+>>>>>>> parent of b62bae3 (Updated job listing and task collection)
         }
         if (col.CompareTag("Job"))
         {
-            GameObject obj;
-            int i = 0;
             col.gameObject.SetActive(false);
-            while (i<activejobs.Count)
-            {
-                obj = activejobs[i];
-                if(col.gameObject == obj)
-                {
-                    activejobs.Remove(obj);
-                    if (activejobs.Count == 0)
-                    {
-                        moneyCount += obj.GetComponent<Job>().cost;
-                    }
-                }
-                i++;
-            }
+            moneyCount += col.GetComponent<Job>().cost;
+        }
+    }
 
+    void OnCollision2D(Collider2D col)
+    {
+        if (col.CompareTag("Food"))
+        {
+            col.isTrigger = false;
         }
     }
 
@@ -208,14 +172,6 @@ public class PlayerControls : MonoBehaviour
             atStore = false;
             store = null;
             col.isTrigger = false;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D col)
-    {
-        if (col.collider.CompareTag("Food"))
-        {
-            col.collider.isTrigger = true;
         }
     }
 

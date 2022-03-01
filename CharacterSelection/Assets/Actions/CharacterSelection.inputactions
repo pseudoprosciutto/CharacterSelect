@@ -269,17 +269,6 @@
                     "action": "Interaction",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7a7584c0-8321-4542-8b1f-b9ddc28bbdf5",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Interaction",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
