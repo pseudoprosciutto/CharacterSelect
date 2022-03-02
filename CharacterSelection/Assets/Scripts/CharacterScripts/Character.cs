@@ -11,6 +11,8 @@ public class Character : MonoBehaviour
     public Sprite sprite;
     SpriteRenderer spriteRenderer;
 
+    
+
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -20,7 +22,7 @@ public class Character : MonoBehaviour
     {
         spriteRenderer.sprite = model.characterSprite;
 
-      			//Record the player's height from the collider
+        //			//Record the player's height from the collider
 	//		playerHeight = bodyCollider.size.y;
     }
 }

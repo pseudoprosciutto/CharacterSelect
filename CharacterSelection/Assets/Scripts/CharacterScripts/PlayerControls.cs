@@ -6,23 +6,46 @@ using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
 {
-    private PlayerInput playerInput;
-        /**
-    private InputAction jump;
-    private InputAction move;
-    private InputAction interact;
-    private InputAction sprint;
-        */
+    Character characterInfo; //this holds the size and maybe more info for character.
+    private PlayerInput input;
+//    private Vector2 movementVector;
+    public Vector2 characterSize;
+    public BoxCollider2D _collider;
+    public Rigidbody2D _rigidbody;
 
-    private Vector2 movementVector;
-
-    public GameObject meter;
-    public EnergyDrain drain;
     public GameObject player;
-    public bool running;
+    float originalXScale;                   //Original scale on X axis
+    float playerHeight;                     //Height of the player
+    
+    [Header("Move Value")]
+    public bool moveModifyPressed;
+    public int direction = 1;
+    private Vector2 tempMovement;
+
+    public float horizontal;
+    public float vertical;
+   
+    public float speed = 4.2f;                //Player speed
+    public float walkSpeed = 4.2f;                //Player speed
+    public float jumpForce = 25f;
+    public float runSpeed = 6.2f;
+
+    public bool isOnGround;
+    public bool running = false;
     public bool walking;
-    public bool atStore;
+    public bool atStore = false;
+
+    [Header("Jump stuff")]
+    public bool jumpPressed;
+    bool jumpCoolingDown = false;
     public bool isJumping;
+
+    public float maxFallSpeed = -25f;
+    public float coyoteDuration = .05f;     //How long the player can jump after falling
+    float coyoteTime;                       //Variable to hold coyote duration
+
+    [Header("Quest Stuff")]
+    public bool interactPressed;
     public GameObject prompt;
     private Collider2D store;
     public GameObject money;
@@ -31,37 +54,18 @@ public class PlayerControls : MonoBehaviour
 
     public List<GameObject> tasks;
     public List<GameObject> activejobs;
+    //energy system
+    public GameObject meter;
+    public EnergyDrain drain;
 
 
-    private Vector2 tempMovement;
 
 
-    [Header("Basic Move States")]
-    public bool jumpPressed;
-    public bool moveModifyPressed;
-    public bool interactPressed;
-    [Header("Move Value")]
-    public float horizontal;
-    public float vertical;
-
-    public float speed = 4.2f;                //Player speed
-   
-    public float walkSpeed = 4.2f;                //Player speed
-    public float jumpForce = 25f;
-    public float runSpeed = 6.2f;
 
 
     void Awake()
     {
-        playerInput = GetComponent<PlayerInput>();
-        //jump = playerInput.actions["Jump"];
-        //jump.ReadValue<float>();
-        //move = playerInput.actions["Move"];
-        //move.ReadValue<float>();
-        //interact = playerInput.actions["Interaction"];
-        //interact.ReadValue<float>();
-        //sprint = playerInput.actions["Sprint"];
-        //sprint.ReadValue<float>();
+        input = GetComponent<PlayerInput>();
     }
 
     // Start is called before the first frame update
@@ -75,31 +79,14 @@ public class PlayerControls : MonoBehaviour
         drain.currentEffort = EffortType.None;
         moneyCount = int.Parse(money.GetComponent<Text>().text);
         tasks = signPool.GetComponent<JobSignPool>().tasks;
+        originalXScale = transform.localScale.x;
 
+        
 
-        //gamepad = InputSystem.AddDevice<Gamepad>();
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-       
-        /**
-        if (walking)
-        {
-            if (running)
-            {
-                float move = movementVector.x * 40 * Time.deltaTime;
-                player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-            }
-            else
-            {
-                float move = movementVector.x * 10 * Time.deltaTime;
-                player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-            }
-        }
-        */
+void SetColliderSize()    {
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -119,7 +106,7 @@ public class PlayerControls : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        playerInput = new PlayerInput();
+        input = new PlayerInput();
         interactPressed = context.ReadValueAsButton();
     }
 
@@ -174,18 +161,45 @@ public class PlayerControls : MonoBehaviour
 
     void FixedUpdate()
     {
+        money.GetComponent<Text>().text = moneyCount.ToString();
+
         horizontal = tempMovement.x;
         vertical = tempMovement.y;
 
-        money.GetComponent<Text>().text = moneyCount.ToString();
+        //Calculate the desired velocity based on inputs
+        float xVelocity = speed * horizontal;
+
+        if (xVelocity * direction < 0f)
+            FlipCharacterDirection();
+
         if (isJumping)
         {
-            float translation = 10f;
-            player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
-            isJumping = false;
-            drain.currentEffort = EffortType.None;
+        //    float translation = 10f;
+        //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
+        //    isJumping = false;
+        //    drain.currentEffort = EffortType.None;
         }
     }
+
+
+    /// <summary>
+    /// Change the characters direction for facing orientation
+    /// </summary>
+    void FlipCharacterDirection()
+    {
+        //Turn the character by flipping the direction
+        direction *= -1;
+
+        //Record the current scale
+        Vector3 scale = transform.localScale;
+
+        //Set the X scale to be the original times the direction
+        scale.x = originalXScale * direction;
+
+        //Apply the new scale
+        transform.localScale = scale;
+    }
+
 
     void OnTriggerEnter2D(Collider2D col)
     {

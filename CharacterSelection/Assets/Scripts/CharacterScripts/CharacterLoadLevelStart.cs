@@ -33,6 +33,6 @@ public class CharacterLoadLevelStart : MonoBehaviour
      characterNumber =  PlayerPrefs.GetInt("selectedCharacter");
 
        character.model =  characterPool.GetCharacterModel(characterNumber);
-        character.LoadSprite();
+       character.LoadSprite();
     }
 }
