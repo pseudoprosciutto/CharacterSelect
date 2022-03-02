@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerControls : MonoBehaviour
 {
-    Character characterInfo; //this holds the size and maybe more info for character.
+    CharacterSpawn characterInfo; //this holds the size and maybe more info for character.
     private PlayerInput input;
 //    private Vector2 movementVector;
     public Vector2 characterSize;
@@ -15,7 +15,7 @@ public class PlayerControls : MonoBehaviour
 
     public GameObject player;
     float originalXScale;                   //Original scale on X axis
-    float playerHeight;                     //Height of the player
+    
     
     [Header("Move Value")]
     public bool moveModifyPressed;

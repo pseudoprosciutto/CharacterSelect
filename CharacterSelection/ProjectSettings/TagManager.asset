@@ -50,11 +50,20 @@ TagManager:
   - name: Platforms
     uniqueID: 1608206873
     locked: 0
+  - name: Buildings
+    uniqueID: 3112048325
+    locked: 0
+  - name: Signs
+    uniqueID: 3686902583
+    locked: 0
   - name: UI
     uniqueID: 315260637
     locked: 0
   - name: Character
     uniqueID: 4235090437
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2397926447
     locked: 0
   - name: FadeIn
     uniqueID: 4030671623

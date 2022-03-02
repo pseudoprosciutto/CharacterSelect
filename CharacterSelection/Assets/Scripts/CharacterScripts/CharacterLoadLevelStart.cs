@@ -6,14 +6,14 @@ using UnityEngine;
 /// Grabs from Object pool get character model and saved data to begin level
 /// Must be on character game object.
 /// </summary>
-[RequireComponent(typeof(Character))]
+[RequireComponent(typeof(CharacterSpawn))]
 public class CharacterLoadLevelStart : MonoBehaviour
 {
     public GameObject characterControllerPrefab;
 
     public CharacterPool characterPool;
     
-    public Character character;
+    public CharacterSpawn character;
 
     public int characterNumber;
 
@@ -23,7 +23,7 @@ public class CharacterLoadLevelStart : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        character = GetComponent<Character>();
+        character = GetComponent<CharacterSpawn>();
         LoadCharacter();
     }
 
