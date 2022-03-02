@@ -802,7 +802,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.3602812, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3097,6 +3097,7 @@ GameObject:
   - component: {fileID: 1948141508}
   - component: {fileID: 1948141509}
   - component: {fileID: 1948141510}
+  - component: {fileID: 1948141511}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3240,6 +3241,7 @@ MonoBehaviour:
   money: {fileID: 143389296}
   signPool: {fileID: 1034430622}
   moneyCount: 0
+  pointer: {fileID: 0}
   tasks: []
   activejobs: []
 --- !u!114 &1948141510
@@ -3348,6 +3350,22 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1948141511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948141504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6def43d7b75243544a36c263229d7728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowSprite: {fileID: 0}
+  crossSprite: {fileID: 0}
+  Pointer: {fileID: 0}
+  tasks: []
 --- !u!1 &2002482836
 GameObject:
   m_ObjectHideFlags: 0
