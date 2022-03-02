@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ae22e6843ff7d4387bfdb63cfce66e16
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Friedrich
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5b88b338ae7ce41f7b59667c273a36e9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -25,6 +25,3 @@ MonoBehaviour:
   - characterName: Character type 4
     characterSprite: {fileID: -1585518058191769452, guid: 76f779185df644522ae75f1f4a981cdf, type: 3}
     characterTone: 0
-  - characterName: Matilda
-    characterSprite: {fileID: 6064590988614646554, guid: 486634cf5ffa34b2db87616a62c34243, type: 3}
-    characterTone: 0

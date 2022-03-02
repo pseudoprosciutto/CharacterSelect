@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1304c536d900444d6a66a6276c656be8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - StandRock
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 228d1c4f2fc204cc897026787b52888e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

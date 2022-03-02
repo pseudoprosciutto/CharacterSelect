@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ac6a4a9fb84c54a6ab6251f0013eaf16
+guid: e5eb26dece15e43ed92f7f773546e304
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Magic Owl
+  - Richard Samuels
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

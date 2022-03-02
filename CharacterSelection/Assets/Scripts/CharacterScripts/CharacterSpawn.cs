@@ -13,18 +13,43 @@ public class CharacterSpawn : MonoBehaviour
     BoxCollider2D boxCollider;
     public float playerHeight;                     //Height of the player
     public Vector2 characterSize;
+    public GameObject characterControllerPrefab;
 
+    public CharacterPool characterPool;
+
+
+    public int characterNumber;
+
+    //test to visually show it working
+
+
+
+
+    private void LoadCharacter()
+    {
+        characterNumber = PlayerPrefs.GetInt("selectedCharacter");
+        model = characterPool.GetCharacterModel(characterNumber);
+
+        LoadSprite();
+    }
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         boxCollider = GetComponent<BoxCollider2D>();
-        
+        LoadCharacter();
+       // sprite = model.characterSprite;
     }
 
     public void LoadSprite()
     {
-        sprite = spriteRenderer.sprite = model.characterSprite;
+
+        spriteRenderer.enabled = true;
+        sprite = model.characterSprite;
+        spriteRenderer.sprite = sprite;
+            
         characterSize = new Vector2(sprite.bounds.size.x, sprite.bounds.size.y);
+
+
         boxCollider.transform.position = spriteRenderer.transform.position;
         boxCollider.offset.Set(0f, .3f);
         boxCollider.size.Set(characterSize.x, characterSize.y);

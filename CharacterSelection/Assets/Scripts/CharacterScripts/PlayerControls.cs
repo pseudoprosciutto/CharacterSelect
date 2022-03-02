@@ -81,8 +81,6 @@ public class PlayerControls : MonoBehaviour
         tasks = signPool.GetComponent<JobSignPool>().tasks;
         originalXScale = transform.localScale.x;
 
-        
-
     }
 
     // Update is called once per frame
