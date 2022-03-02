@@ -1,0 +1,2201 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+/Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61956
+Successfully changed project path to: /Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
+/Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2022-03-01 10:22:18.982 Unity[12942:170710] Color LCD preferred device: NVIDIA GeForce GT 650M (high power)
+2022-03-01 10:22:18.982 Unity[12942:170710] Metal devices available: 2
+2022-03-01 10:22:18.982 Unity[12942:170710] 0: NVIDIA GeForce GT 650M (high power)
+2022-03-01 10:22:18.982 Unity[12942:170710] 1: Intel HD Graphics 4000 (low power)
+2022-03-01 10:22:18.983 Unity[12942:170710] Using device NVIDIA GeForce GT 650M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 650M
+Initialize mono
+Mono path[0] = '/Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56942
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/EditorsFolder/2021.1.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.181240 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.622 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.108 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.67 seconds
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.460045 ms (FindLiveObjects: 0.046176 ms CreateObjectMapping: 0.004303 ms MarkObjects: 2.346783 ms  DeleteObjects: 0.061422 ms)
+
+========================================================================
+Received Import Request.
+  path: 
+  artifactKey: Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000092 seconds  code(3) message(Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6')
+  ERROR: Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6'
+========================================================================
+Received Import Request.
+  Time since last request: 753.686459 seconds.
+  path: 
+  artifactKey: Guid(ca8be2006fe7140d1b9179347e40201a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(ca8be2006fe7140d1b9179347e40201a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000053 seconds  code(3) message(Unknown asset with GUID 'ca8be2006fe7140d1b9179347e40201a')
+  ERROR: Unknown asset with GUID 'ca8be2006fe7140d1b9179347e40201a'
+========================================================================
+Received Import Request.
+  Time since last request: 15.615774 seconds.
+  path: 
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000067 seconds  code(3) message(Unknown asset with GUID '00000000000000001000000000000000')
+  ERROR: Unknown asset with GUID '00000000000000001000000000000000'
+========================================================================
+Received Import Request.
+  Time since last request: 105.695939 seconds.
+  path: 
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID '2cda990e2423bbf4892e6590ba056729')
+  ERROR: Unknown asset with GUID '2cda990e2423bbf4892e6590ba056729'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.7 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.932504 ms (FindLiveObjects: 0.046448 ms CreateObjectMapping: 0.004859 ms MarkObjects: 1.873931 ms  DeleteObjects: 0.005638 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.985742 ms (FindLiveObjects: 0.038972 ms CreateObjectMapping: 0.004301 ms MarkObjects: 1.936340 ms  DeleteObjects: 0.004686 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.656832 ms (FindLiveObjects: 0.040006 ms CreateObjectMapping: 0.003564 ms MarkObjects: 1.608300 ms  DeleteObjects: 0.003665 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.1 MB.
+System memory in use after: 73.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.955644 ms (FindLiveObjects: 0.044141 ms CreateObjectMapping: 0.004629 ms MarkObjects: 1.900724 ms  DeleteObjects: 0.004694 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13588.073448 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b108ebf1b50d074d0b9b74ff06261eff') in 0.721386 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.870193 ms (FindLiveObjects: 0.041045 ms CreateObjectMapping: 0.003767 ms MarkObjects: 1.818977 ms  DeleteObjects: 0.004853 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.339 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.7 MB.
+System memory in use after: 77.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.222042 ms (FindLiveObjects: 0.040973 ms CreateObjectMapping: 0.004928 ms MarkObjects: 2.168318 ms  DeleteObjects: 0.006088 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 613.417008 seconds.
+  path: 
+  artifactKey: Guid(b99910cf5730c4b1ca5cce6abdf91ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b99910cf5730c4b1ca5cce6abdf91ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID 'b99910cf5730c4b1ca5cce6abdf91ed9')
+  ERROR: Unknown asset with GUID 'b99910cf5730c4b1ca5cce6abdf91ed9'
+========================================================================
+Received Import Request.
+  Time since last request: 0.697964 seconds.
+  path: 
+  artifactKey: Guid(7d247111453e2491880592d5140b9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7d247111453e2491880592d5140b9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000047 seconds  code(3) message(Unknown asset with GUID '7d247111453e2491880592d5140b9e08')
+  ERROR: Unknown asset with GUID '7d247111453e2491880592d5140b9e08'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.323 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.8 MB.
+System memory in use after: 77.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.032150 ms (FindLiveObjects: 0.040893 ms CreateObjectMapping: 0.004943 ms MarkObjects: 1.980400 ms  DeleteObjects: 0.004426 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.0 MB.
+System memory in use after: 78.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.210812 ms (FindLiveObjects: 0.042984 ms CreateObjectMapping: 0.003897 ms MarkObjects: 2.157145 ms  DeleteObjects: 0.005374 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.1 MB.
+System memory in use after: 78.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.897116 ms (FindLiveObjects: 0.041788 ms CreateObjectMapping: 0.004229 ms MarkObjects: 1.845658 ms  DeleteObjects: 0.004053 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 648.668826 seconds.
+  path: 
+  artifactKey: Guid(a9ea8a31f25c49b4fb54e68efa5a7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a9ea8a31f25c49b4fb54e68efa5a7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID 'a9ea8a31f25c49b4fb54e68efa5a7fee')
+  ERROR: Unknown asset with GUID 'a9ea8a31f25c49b4fb54e68efa5a7fee'
+========================================================================
+Received Import Request.
+  Time since last request: 26.473607 seconds.
+  path: 
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '00000000000000001000000000000000')
+  ERROR: Unknown asset with GUID '00000000000000001000000000000000'
+========================================================================
+Received Import Request.
+  Time since last request: 10.393470 seconds.
+  path: 
+  artifactKey: Guid(bb2f051c3a17a4730a23a4c830f83137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bb2f051c3a17a4730a23a4c830f83137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000047 seconds  code(3) message(Unknown asset with GUID 'bb2f051c3a17a4730a23a4c830f83137')
+  ERROR: Unknown asset with GUID 'bb2f051c3a17a4730a23a4c830f83137'
+========================================================================
+Received Import Request.
+  Time since last request: 12.174912 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.998180 ms (FindLiveObjects: 0.042883 ms CreateObjectMapping: 0.004176 ms MarkObjects: 1.944566 ms  DeleteObjects: 0.005207 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.799576 seconds.
+  path: 
+  artifactKey: Guid(d22745f11b38f2a4c91cec165ac15e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d22745f11b38f2a4c91cec165ac15e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID 'd22745f11b38f2a4c91cec165ac15e7f')
+  ERROR: Unknown asset with GUID 'd22745f11b38f2a4c91cec165ac15e7f'
+========================================================================
+Received Import Request.
+  Time since last request: 1.267606 seconds.
+  path: 
+  artifactKey: Guid(fcfe6de5e8dee68488487fb6b8d9b7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(fcfe6de5e8dee68488487fb6b8d9b7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID 'fcfe6de5e8dee68488487fb6b8d9b7d6')
+  ERROR: Unknown asset with GUID 'fcfe6de5e8dee68488487fb6b8d9b7d6'
+========================================================================
+Received Import Request.
+  Time since last request: 25.987794 seconds.
+  path: 
+  artifactKey: Guid(27c09a75c7fca4072b6fe63e10f205cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(27c09a75c7fca4072b6fe63e10f205cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID '27c09a75c7fca4072b6fe63e10f205cd')
+  ERROR: Unknown asset with GUID '27c09a75c7fca4072b6fe63e10f205cd'
+========================================================================
+Received Import Request.
+  Time since last request: 4.378824 seconds.
+  path: 
+  artifactKey: Guid(860d25c76e92a40fcbd04059231132d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(860d25c76e92a40fcbd04059231132d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '860d25c76e92a40fcbd04059231132d0')
+  ERROR: Unknown asset with GUID '860d25c76e92a40fcbd04059231132d0'
+========================================================================
+Received Import Request.
+  Time since last request: 12.844993 seconds.
+  path: 
+  artifactKey: Guid(65bb336619c704c6ba25827717253985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(65bb336619c704c6ba25827717253985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '65bb336619c704c6ba25827717253985')
+  ERROR: Unknown asset with GUID '65bb336619c704c6ba25827717253985'
+========================================================================
+Received Import Request.
+  Time since last request: 4.121683 seconds.
+  path: 
+  artifactKey: Guid(2c955bef7823e4ebf87882c6defeb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2c955bef7823e4ebf87882c6defeb2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID '2c955bef7823e4ebf87882c6defeb2a9')
+  ERROR: Unknown asset with GUID '2c955bef7823e4ebf87882c6defeb2a9'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.4 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.067672 ms (FindLiveObjects: 0.043611 ms CreateObjectMapping: 0.004629 ms MarkObjects: 2.012978 ms  DeleteObjects: 0.004796 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.887700 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000051 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Import Request.
+  Time since last request: 324.743395 seconds.
+  path: 
+  artifactKey: Guid(2386f8d3c24f74f03a4a9e2b0e1e5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2386f8d3c24f74f03a4a9e2b0e1e5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID '2386f8d3c24f74f03a4a9e2b0e1e5820')
+  ERROR: Unknown asset with GUID '2386f8d3c24f74f03a4a9e2b0e1e5820'
+========================================================================
+Received Import Request.
+  Time since last request: 9.567168 seconds.
+  path: 
+  artifactKey: Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64')
+  ERROR: Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64'
+========================================================================
+Received Import Request.
+  Time since last request: 1.455325 seconds.
+  path: 
+  artifactKey: Guid(2386f8d3c24f74f03a4a9e2b0e1e5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2386f8d3c24f74f03a4a9e2b0e1e5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000051 seconds  code(3) message(Unknown asset with GUID '2386f8d3c24f74f03a4a9e2b0e1e5820')
+  ERROR: Unknown asset with GUID '2386f8d3c24f74f03a4a9e2b0e1e5820'
+========================================================================
+Received Import Request.
+  Time since last request: 1.021183 seconds.
+  path: 
+  artifactKey: Guid(aa3aabd6b54934ec38fb7eb9527b391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aa3aabd6b54934ec38fb7eb9527b391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000181 seconds  code(3) message(Unknown asset with GUID 'aa3aabd6b54934ec38fb7eb9527b391e')
+  ERROR: Unknown asset with GUID 'aa3aabd6b54934ec38fb7eb9527b391e'
+========================================================================
+Received Import Request.
+  Time since last request: 2.764129 seconds.
+  path: 
+  artifactKey: Guid(aa3aabd6b54934ec38fb7eb9527b391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aa3aabd6b54934ec38fb7eb9527b391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000072 seconds  code(3) message(Unknown asset with GUID 'aa3aabd6b54934ec38fb7eb9527b391e')
+  ERROR: Unknown asset with GUID 'aa3aabd6b54934ec38fb7eb9527b391e'
+========================================================================
+Received Import Request.
+  Time since last request: 3.388089 seconds.
+  path: 
+  artifactKey: Guid(aa3aabd6b54934ec38fb7eb9527b391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(aa3aabd6b54934ec38fb7eb9527b391e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID 'aa3aabd6b54934ec38fb7eb9527b391e')
+  ERROR: Unknown asset with GUID 'aa3aabd6b54934ec38fb7eb9527b391e'
+========================================================================
+Received Import Request.
+  Time since last request: 377.966072 seconds.
+  path: 
+  artifactKey: Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64')
+  ERROR: Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64'
+========================================================================
+Received Import Request.
+  Time since last request: 5.124175 seconds.
+  path: 
+  artifactKey: Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64')
+  ERROR: Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.6 MB.
+System memory in use after: 78.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.877106 ms (FindLiveObjects: 0.040902 ms CreateObjectMapping: 0.004048 ms MarkObjects: 1.825730 ms  DeleteObjects: 0.004630 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.553065 seconds.
+  path: 
+  artifactKey: Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64')
+  ERROR: Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64'
+========================================================================
+Received Import Request.
+  Time since last request: 14.256205 seconds.
+  path: 
+  artifactKey: Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000063 seconds  code(3) message(Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e')
+  ERROR: Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e'
+========================================================================
+Received Import Request.
+  Time since last request: 2.857041 seconds.
+  path: 
+  artifactKey: Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000060 seconds  code(3) message(Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e')
+  ERROR: Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.7 MB.
+System memory in use after: 78.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.880548 ms (FindLiveObjects: 0.040254 ms CreateObjectMapping: 0.003852 ms MarkObjects: 1.829889 ms  DeleteObjects: 0.004989 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.143691 seconds.
+  path: 
+  artifactKey: Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e')
+  ERROR: Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e'
+========================================================================
+Received Import Request.
+  Time since last request: 21.329718 seconds.
+  path: 
+  artifactKey: Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd')
+  ERROR: Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd'
+========================================================================
+Received Import Request.
+  Time since last request: 0.737406 seconds.
+  path: 
+  artifactKey: Guid(732b9c4104e0647ca8fab080bc601973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(732b9c4104e0647ca8fab080bc601973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '732b9c4104e0647ca8fab080bc601973')
+  ERROR: Unknown asset with GUID '732b9c4104e0647ca8fab080bc601973'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.8 MB.
+System memory in use after: 78.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.782145 ms (FindLiveObjects: 0.039417 ms CreateObjectMapping: 0.004034 ms MarkObjects: 1.729910 ms  DeleteObjects: 0.006852 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.784979 ms (FindLiveObjects: 0.037631 ms CreateObjectMapping: 0.003352 ms MarkObjects: 1.737690 ms  DeleteObjects: 0.004834 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.576605 seconds.
+  path: 
+  artifactKey: Guid(e6eab4ad2a86d4626947e1c1dcb551a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(e6eab4ad2a86d4626947e1c1dcb551a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID 'e6eab4ad2a86d4626947e1c1dcb551a6')
+  ERROR: Unknown asset with GUID 'e6eab4ad2a86d4626947e1c1dcb551a6'
+========================================================================
+Received Import Request.
+  Time since last request: 13.697554 seconds.
+  path: 
+  artifactKey: Guid(02e7e51d6aac74b64b947059c8c77b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(02e7e51d6aac74b64b947059c8c77b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID '02e7e51d6aac74b64b947059c8c77b64')
+  ERROR: Unknown asset with GUID '02e7e51d6aac74b64b947059c8c77b64'
+========================================================================
+Received Import Request.
+  Time since last request: 3.212311 seconds.
+  path: 
+  artifactKey: Guid(02e7e51d6aac74b64b947059c8c77b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(02e7e51d6aac74b64b947059c8c77b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000082 seconds  code(3) message(Unknown asset with GUID '02e7e51d6aac74b64b947059c8c77b64')
+  ERROR: Unknown asset with GUID '02e7e51d6aac74b64b947059c8c77b64'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.258 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.823225 ms (FindLiveObjects: 0.037325 ms CreateObjectMapping: 0.003690 ms MarkObjects: 1.776123 ms  DeleteObjects: 0.004834 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.669200 seconds.
+  path: 
+  artifactKey: Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000036 seconds  code(3) message(Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499')
+  ERROR: Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499'
+========================================================================
+Received Import Request.
+  Time since last request: 2.005665 seconds.
+  path: 
+  artifactKey: Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000061 seconds  code(3) message(Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499')
+  ERROR: Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.309 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.866401 ms (FindLiveObjects: 0.039460 ms CreateObjectMapping: 0.003508 ms MarkObjects: 1.817979 ms  DeleteObjects: 0.004182 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.058564 seconds.
+  path: 
+  artifactKey: Guid(eaa4db2c5260742879def5b80842fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(eaa4db2c5260742879def5b80842fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID 'eaa4db2c5260742879def5b80842fb69')
+  ERROR: Unknown asset with GUID 'eaa4db2c5260742879def5b80842fb69'
+========================================================================
+Received Import Request.
+  Time since last request: 1.980037 seconds.
+  path: 
+  artifactKey: Guid(38a577c9df29146f4a29148a6383b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(38a577c9df29146f4a29148a6383b811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '38a577c9df29146f4a29148a6383b811')
+  ERROR: Unknown asset with GUID '38a577c9df29146f4a29148a6383b811'
+========================================================================
+Received Import Request.
+  Time since last request: 1.551820 seconds.
+  path: 
+  artifactKey: Guid(b7e183a2c6dc0a444845029caff6e882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b7e183a2c6dc0a444845029caff6e882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID 'b7e183a2c6dc0a444845029caff6e882')
+  ERROR: Unknown asset with GUID 'b7e183a2c6dc0a444845029caff6e882'
+========================================================================
+Received Import Request.
+  Time since last request: 2.121759 seconds.
+  path: 
+  artifactKey: Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499')
+  ERROR: Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499'
+========================================================================
+Received Import Request.
+  Time since last request: 0.844201 seconds.
+  path: 
+  artifactKey: Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd')
+  ERROR: Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd'
+========================================================================
+Received Import Request.
+  Time since last request: 2.313690 seconds.
+  path: 
+  artifactKey: Guid(96da4afc6277f3b41a40d1f08052bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(96da4afc6277f3b41a40d1f08052bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '96da4afc6277f3b41a40d1f08052bd6c')
+  ERROR: Unknown asset with GUID '96da4afc6277f3b41a40d1f08052bd6c'
+========================================================================
+Received Import Request.
+  Time since last request: 4.266999 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Import Request.
+  Time since last request: 3.484949 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.4 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.705911 ms (FindLiveObjects: 0.039981 ms CreateObjectMapping: 0.003970 ms MarkObjects: 1.656453 ms  DeleteObjects: 0.004093 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.692861 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Import Request.
+  Time since last request: 1.032040 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000058 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Import Request.
+  Time since last request: 2.721035 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Import Request.
+  Time since last request: 2.428235 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.5 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.086661 ms (FindLiveObjects: 0.044075 ms CreateObjectMapping: 0.004552 ms MarkObjects: 2.032031 ms  DeleteObjects: 0.004532 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.433483 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Import Request.
+  Time since last request: 47.662705 seconds.
+  path: 
+  artifactKey: Guid(eaa4db2c5260742879def5b80842fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(eaa4db2c5260742879def5b80842fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID 'eaa4db2c5260742879def5b80842fb69')
+  ERROR: Unknown asset with GUID 'eaa4db2c5260742879def5b80842fb69'
+========================================================================
+Received Import Request.
+  Time since last request: 1.315935 seconds.
+  path: 
+  artifactKey: Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000052 seconds  code(3) message(Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd')
+  ERROR: Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd'
+========================================================================
+Received Import Request.
+  Time since last request: 1.777196 seconds.
+  path: 
+  artifactKey: Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(1fbd907d7d6b34127b39abf2b5b3d499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499')
+  ERROR: Unknown asset with GUID '1fbd907d7d6b34127b39abf2b5b3d499'
+========================================================================
+Received Import Request.
+  Time since last request: 1.929066 seconds.
+  path: 
+  artifactKey: Guid(f45d375cb587a4294ac72285a315ad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(f45d375cb587a4294ac72285a315ad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID 'f45d375cb587a4294ac72285a315ad8f')
+  ERROR: Unknown asset with GUID 'f45d375cb587a4294ac72285a315ad8f'
+========================================================================
+Received Import Request.
+  Time since last request: 0.764148 seconds.
+  path: 
+  artifactKey: Guid(02e7e51d6aac74b64b947059c8c77b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(02e7e51d6aac74b64b947059c8c77b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '02e7e51d6aac74b64b947059c8c77b64')
+  ERROR: Unknown asset with GUID '02e7e51d6aac74b64b947059c8c77b64'
+========================================================================
+Received Import Request.
+  Time since last request: 1.034591 seconds.
+  path: 
+  artifactKey: Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3e9ea1df4b5db4345b0b75945d571e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64')
+  ERROR: Unknown asset with GUID '3e9ea1df4b5db4345b0b75945d571e64'
+========================================================================
+Received Import Request.
+  Time since last request: 2.596691 seconds.
+  path: 
+  artifactKey: Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf9641d42eb55564b93bdfeb1893fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e')
+  ERROR: Unknown asset with GUID 'bf9641d42eb55564b93bdfeb1893fa1e'
+========================================================================
+Received Import Request.
+  Time since last request: 37.746732 seconds.
+  path: 
+  artifactKey: Guid(610758cc191e545ada8e0fc223cfd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(610758cc191e545ada8e0fc223cfd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '610758cc191e545ada8e0fc223cfd81d')
+  ERROR: Unknown asset with GUID '610758cc191e545ada8e0fc223cfd81d'
+========================================================================
+Received Import Request.
+  Time since last request: 0.001587 seconds.
+  path: 
+  artifactKey: Guid(486634cf5ffa34b2db87616a62c34243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(486634cf5ffa34b2db87616a62c34243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000036 seconds  code(3) message(Unknown asset with GUID '486634cf5ffa34b2db87616a62c34243')
+  ERROR: Unknown asset with GUID '486634cf5ffa34b2db87616a62c34243'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.7 MB.
+System memory in use after: 79.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.879543 ms (FindLiveObjects: 0.039460 ms CreateObjectMapping: 0.003571 ms MarkObjects: 1.829065 ms  DeleteObjects: 0.005855 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.194788 ms (FindLiveObjects: 0.044330 ms CreateObjectMapping: 0.004568 ms MarkObjects: 2.139049 ms  DeleteObjects: 0.005334 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 80.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.815753 ms (FindLiveObjects: 0.041477 ms CreateObjectMapping: 0.004102 ms MarkObjects: 1.763390 ms  DeleteObjects: 0.005431 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.795671 ms (FindLiveObjects: 0.041417 ms CreateObjectMapping: 0.004264 ms MarkObjects: 1.744221 ms  DeleteObjects: 0.004326 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4247.292015 seconds.
+  path: 
+  artifactKey: Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000212 seconds  code(3) message(Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676')
+  ERROR: Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676'
+========================================================================
+Received Import Request.
+  Time since last request: 11.773348 seconds.
+  path: 
+  artifactKey: Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000056 seconds  code(3) message(Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676')
+  ERROR: Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.2 MB.
+System memory in use after: 80.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.141109 ms (FindLiveObjects: 0.109205 ms CreateObjectMapping: 0.004896 ms MarkObjects: 2.020297 ms  DeleteObjects: 0.004613 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.341771 seconds.
+  path: 
+  artifactKey: Guid(67675362c82d843348b85f087075382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(67675362c82d843348b85f087075382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000174 seconds  code(3) message(Unknown asset with GUID '67675362c82d843348b85f087075382d')
+  ERROR: Unknown asset with GUID '67675362c82d843348b85f087075382d'
+========================================================================
+Received Import Request.
+  Time since last request: 3.764825 seconds.
+  path: 
+  artifactKey: Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676')
+  ERROR: Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676'
+========================================================================
+Received Import Request.
+  Time since last request: 0.745972 seconds.
+  path: 
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '2cda990e2423bbf4892e6590ba056729')
+  ERROR: Unknown asset with GUID '2cda990e2423bbf4892e6590ba056729'
+========================================================================
+Received Import Request.
+  Time since last request: 2.114112 seconds.
+  path: 
+  artifactKey: Guid(963b1adbc452a4dbc8145662288ab4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(963b1adbc452a4dbc8145662288ab4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000728 seconds  code(3) message(Unknown asset with GUID '963b1adbc452a4dbc8145662288ab4d8')
+  ERROR: Unknown asset with GUID '963b1adbc452a4dbc8145662288ab4d8'
+========================================================================
+Received Import Request.
+  Time since last request: 64.672722 seconds.
+  path: 
+  artifactKey: Guid(eaa4db2c5260742879def5b80842fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(eaa4db2c5260742879def5b80842fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000051 seconds  code(3) message(Unknown asset with GUID 'eaa4db2c5260742879def5b80842fb69')
+  ERROR: Unknown asset with GUID 'eaa4db2c5260742879def5b80842fb69'
+========================================================================
+Received Import Request.
+  Time since last request: 15.826243 seconds.
+  path: 
+  artifactKey: Guid(9dcf91f8a42754bce9431b7d4ebb626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9dcf91f8a42754bce9431b7d4ebb626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000092 seconds  code(3) message(Unknown asset with GUID '9dcf91f8a42754bce9431b7d4ebb626e')
+  ERROR: Unknown asset with GUID '9dcf91f8a42754bce9431b7d4ebb626e'
+========================================================================
+Received Import Request.
+  Time since last request: 2.645517 seconds.
+  path: 
+  artifactKey: Guid(9dcf91f8a42754bce9431b7d4ebb626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9dcf91f8a42754bce9431b7d4ebb626e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '9dcf91f8a42754bce9431b7d4ebb626e')
+  ERROR: Unknown asset with GUID '9dcf91f8a42754bce9431b7d4ebb626e'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.4 MB.
+System memory in use after: 80.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.781621 ms (FindLiveObjects: 0.043046 ms CreateObjectMapping: 0.003297 ms MarkObjects: 1.729512 ms  DeleteObjects: 0.004234 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.887717 seconds.
+  path: 
+  artifactKey: Guid(e6eab4ad2a86d4626947e1c1dcb551a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(e6eab4ad2a86d4626947e1c1dcb551a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID 'e6eab4ad2a86d4626947e1c1dcb551a6')
+  ERROR: Unknown asset with GUID 'e6eab4ad2a86d4626947e1c1dcb551a6'
+========================================================================
+Received Import Request.
+  Time since last request: 3.350056 seconds.
+  path: 
+  artifactKey: Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c73fffb0ab72d46edadbb99901476dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd')
+  ERROR: Unknown asset with GUID 'c73fffb0ab72d46edadbb99901476dbd'
+========================================================================
+Received Import Request.
+  Time since last request: 15.718932 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000052 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.066682 ms (FindLiveObjects: 0.040531 ms CreateObjectMapping: 0.003672 ms MarkObjects: 2.013336 ms  DeleteObjects: 0.007428 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.122448 ms (FindLiveObjects: 0.046503 ms CreateObjectMapping: 0.004112 ms MarkObjects: 2.065275 ms  DeleteObjects: 0.004982 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.8 MB.
+System memory in use after: 80.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.842095 ms (FindLiveObjects: 0.039943 ms CreateObjectMapping: 0.003247 ms MarkObjects: 1.793120 ms  DeleteObjects: 0.004265 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.9 MB.
+System memory in use after: 80.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.923580 ms (FindLiveObjects: 0.045567 ms CreateObjectMapping: 0.004241 ms MarkObjects: 1.866949 ms  DeleteObjects: 0.004920 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.937590 ms (FindLiveObjects: 0.040564 ms CreateObjectMapping: 0.003935 ms MarkObjects: 1.887195 ms  DeleteObjects: 0.004430 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 804.062161 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000057 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Import Request.
+  Time since last request: 3556.756339 seconds.
+  path: 
+  artifactKey: Guid(3fbb7b35b20f8954c99a945b24b03e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3fbb7b35b20f8954c99a945b24b03e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000052 seconds  code(3) message(Unknown asset with GUID '3fbb7b35b20f8954c99a945b24b03e7c')
+  ERROR: Unknown asset with GUID '3fbb7b35b20f8954c99a945b24b03e7c'
+========================================================================
+Received Import Request.
+  Time since last request: 2.481888 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.874317 seconds.
+  path: 
+  artifactKey: Guid(a9ea8a31f25c49b4fb54e68efa5a7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a9ea8a31f25c49b4fb54e68efa5a7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000043 seconds  code(3) message(Unknown asset with GUID 'a9ea8a31f25c49b4fb54e68efa5a7fee')
+  ERROR: Unknown asset with GUID 'a9ea8a31f25c49b4fb54e68efa5a7fee'
+========================================================================
+Received Import Request.
+  Time since last request: 73.413602 seconds.
+  path: 
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '00000000000000001000000000000000')
+  ERROR: Unknown asset with GUID '00000000000000001000000000000000'
+========================================================================
+Received Import Request.
+  Time since last request: 10.637155 seconds.
+  path: 
+  artifactKey: Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6')
+  ERROR: Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6'
+========================================================================
+Received Import Request.
+  Time since last request: 7.918526 seconds.
+  path: 
+  artifactKey: Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c720258d47074c1e83a0b3b71a00304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000054 seconds  code(3) message(Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304')
+  ERROR: Unknown asset with GUID '9c720258d47074c1e83a0b3b71a00304'
+========================================================================
+Received Import Request.
+  Time since last request: 1.533860 seconds.
+  path: 
+  artifactKey: Guid(7d247111453e2491880592d5140b9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7d247111453e2491880592d5140b9e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000058 seconds  code(3) message(Unknown asset with GUID '7d247111453e2491880592d5140b9e08')
+  ERROR: Unknown asset with GUID '7d247111453e2491880592d5140b9e08'
+========================================================================
+Received Import Request.
+  Time since last request: 293.613833 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000074 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Import Request.
+  Time since last request: 162.408960 seconds.
+  path: 
+  artifactKey: Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000055 seconds  code(3) message(Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6')
+  ERROR: Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6'
+========================================================================
+Received Import Request.
+  Time since last request: 39.120457 seconds.
+  path: 
+  artifactKey: Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000108 seconds  code(3) message(Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6')
+  ERROR: Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6'
+========================================================================
+Received Import Request.
+  Time since last request: 47.412896 seconds.
+  path: 
+  artifactKey: Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c8843f12b1d444ce6bf13d752f1af7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000047 seconds  code(3) message(Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6')
+  ERROR: Unknown asset with GUID 'c8843f12b1d444ce6bf13d752f1af7a6'
+========================================================================
+Received Import Request.
+  Time since last request: 6.105320 seconds.
+  path: 
+  artifactKey: Guid(ed311ed2cac30419f9f5b5fe39e99d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(ed311ed2cac30419f9f5b5fe39e99d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000056 seconds  code(3) message(Unknown asset with GUID 'ed311ed2cac30419f9f5b5fe39e99d6c')
+  ERROR: Unknown asset with GUID 'ed311ed2cac30419f9f5b5fe39e99d6c'
+========================================================================
+Received Import Request.
+  Time since last request: 8.758797 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 17.377263 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000062 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 756.459824 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000057 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 6.232365 seconds.
+  path: 
+  artifactKey: Guid(b228dd4ad95f6444c996d82586f2c1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b228dd4ad95f6444c996d82586f2c1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID 'b228dd4ad95f6444c996d82586f2c1f8')
+  ERROR: Unknown asset with GUID 'b228dd4ad95f6444c996d82586f2c1f8'
+========================================================================
+Received Import Request.
+  Time since last request: 1.284312 seconds.
+  path: 
+  artifactKey: Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000058 seconds  code(3) message(Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6')
+  ERROR: Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6'
+========================================================================
+Received Import Request.
+  Time since last request: 21.618508 seconds.
+  path: 
+  artifactKey: Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000049 seconds  code(3) message(Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6')
+  ERROR: Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6'
+========================================================================
+Received Import Request.
+  Time since last request: 118.062624 seconds.
+  path: 
+  artifactKey: Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6')
+  ERROR: Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6'
+========================================================================
+Received Import Request.
+  Time since last request: 23.143387 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000061 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Import Request.
+  Time since last request: 10.640029 seconds.
+  path: 
+  artifactKey: Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c451b711153ab4787b6b5f83257765d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000122 seconds  code(3) message(Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6')
+  ERROR: Unknown asset with GUID 'c451b711153ab4787b6b5f83257765d6'
+========================================================================
+Received Import Request.
+  Time since last request: 0.002638 seconds.
+  path: 
+  artifactKey: Guid(610758cc191e545ada8e0fc223cfd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(610758cc191e545ada8e0fc223cfd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000038 seconds  code(3) message(Unknown asset with GUID '610758cc191e545ada8e0fc223cfd81d')
+  ERROR: Unknown asset with GUID '610758cc191e545ada8e0fc223cfd81d'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: 
+  artifactKey: Guid(486634cf5ffa34b2db87616a62c34243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(486634cf5ffa34b2db87616a62c34243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000038 seconds  code(3) message(Unknown asset with GUID '486634cf5ffa34b2db87616a62c34243')
+  ERROR: Unknown asset with GUID '486634cf5ffa34b2db87616a62c34243'
+========================================================================
+Received Import Request.
+  Time since last request: 2.723895 seconds.
+  path: 
+  artifactKey: Guid(0b53777e6172f489a94c95bb0317a370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(0b53777e6172f489a94c95bb0317a370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000054 seconds  code(3) message(Unknown asset with GUID '0b53777e6172f489a94c95bb0317a370')
+  ERROR: Unknown asset with GUID '0b53777e6172f489a94c95bb0317a370'
+========================================================================
+Received Import Request.
+  Time since last request: 0.121286 seconds.
+  path: 
+  artifactKey: Guid(0db3c51a6bca64db889419662bad6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(0db3c51a6bca64db889419662bad6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '0db3c51a6bca64db889419662bad6514')
+  ERROR: Unknown asset with GUID '0db3c51a6bca64db889419662bad6514'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: 
+  artifactKey: Guid(87242a1775c9b4518ba49ca756a834f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(87242a1775c9b4518ba49ca756a834f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID '87242a1775c9b4518ba49ca756a834f2')
+  ERROR: Unknown asset with GUID '87242a1775c9b4518ba49ca756a834f2'
+========================================================================
+Received Import Request.
+  Time since last request: 0.378078 seconds.
+  path: 
+  artifactKey: Guid(16fa610a96322421785a43e3c0c70c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(16fa610a96322421785a43e3c0c70c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID '16fa610a96322421785a43e3c0c70c5d')
+  ERROR: Unknown asset with GUID '16fa610a96322421785a43e3c0c70c5d'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: 
+  artifactKey: Guid(ee5c3485ed54a45ff92334fc59312eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(ee5c3485ed54a45ff92334fc59312eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000037 seconds  code(3) message(Unknown asset with GUID 'ee5c3485ed54a45ff92334fc59312eac')
+  ERROR: Unknown asset with GUID 'ee5c3485ed54a45ff92334fc59312eac'
+========================================================================
+Received Import Request.
+  Time since last request: 0.170240 seconds.
+  path: 
+  artifactKey: Guid(ed311ed2cac30419f9f5b5fe39e99d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(ed311ed2cac30419f9f5b5fe39e99d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID 'ed311ed2cac30419f9f5b5fe39e99d6c')
+  ERROR: Unknown asset with GUID 'ed311ed2cac30419f9f5b5fe39e99d6c'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: 
+  artifactKey: Guid(96bc042c151624f609e4dcb2893492f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(96bc042c151624f609e4dcb2893492f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000050 seconds  code(3) message(Unknown asset with GUID '96bc042c151624f609e4dcb2893492f5')
+  ERROR: Unknown asset with GUID '96bc042c151624f609e4dcb2893492f5'
+========================================================================
+Received Import Request.
+  Time since last request: 0.103541 seconds.
+  path: 
+  artifactKey: Guid(65765344893214927aea32af5bcbbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(65765344893214927aea32af5bcbbb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '65765344893214927aea32af5bcbbb62')
+  ERROR: Unknown asset with GUID '65765344893214927aea32af5bcbbb62'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: 
+  artifactKey: Guid(e209c77414fc5427b80a1833521ec635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(e209c77414fc5427b80a1833521ec635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000038 seconds  code(3) message(Unknown asset with GUID 'e209c77414fc5427b80a1833521ec635')
+  ERROR: Unknown asset with GUID 'e209c77414fc5427b80a1833521ec635'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: 
+  artifactKey: Guid(c3adbdb046295469fa3ea74725dfbcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c3adbdb046295469fa3ea74725dfbcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000185 seconds  code(3) message(Unknown asset with GUID 'c3adbdb046295469fa3ea74725dfbcf5')
+  ERROR: Unknown asset with GUID 'c3adbdb046295469fa3ea74725dfbcf5'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: 
+  artifactKey: Guid(338adacada70b42c18a59d5e1e07e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(338adacada70b42c18a59d5e1e07e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000034 seconds  code(3) message(Unknown asset with GUID '338adacada70b42c18a59d5e1e07e708')
+  ERROR: Unknown asset with GUID '338adacada70b42c18a59d5e1e07e708'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: 
+  artifactKey: Guid(7de4c1da547274ac2aea16b72afa9469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7de4c1da547274ac2aea16b72afa9469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000033 seconds  code(3) message(Unknown asset with GUID '7de4c1da547274ac2aea16b72afa9469')
+  ERROR: Unknown asset with GUID '7de4c1da547274ac2aea16b72afa9469'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: 
+  artifactKey: Guid(c7933c02ab29e4ad98004556cbd15f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c7933c02ab29e4ad98004556cbd15f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000034 seconds  code(3) message(Unknown asset with GUID 'c7933c02ab29e4ad98004556cbd15f43')
+  ERROR: Unknown asset with GUID 'c7933c02ab29e4ad98004556cbd15f43'
+========================================================================
+Received Import Request.
+  Time since last request: 67.426955 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000047 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.591 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.2 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.921970 ms (FindLiveObjects: 0.131301 ms CreateObjectMapping: 0.003860 ms MarkObjects: 1.781460 ms  DeleteObjects: 0.004100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.627561 seconds.
+  path: 
+  artifactKey: Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(017442325dab4421a83d71eede759fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '017442325dab4421a83d71eede759fe6')
+  ERROR: Unknown asset with GUID '017442325dab4421a83d71eede759fe6'
+========================================================================
+Received Import Request.
+  Time since last request: 14.614068 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 15.527297 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000079 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 7.603470 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000039 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.3 MB.
+System memory in use after: 81.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.981914 ms (FindLiveObjects: 0.042938 ms CreateObjectMapping: 0.003884 ms MarkObjects: 1.928961 ms  DeleteObjects: 0.004571 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.415075 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 13.704332 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000048 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.406 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.5 MB.
+System memory in use after: 81.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.860262 ms (FindLiveObjects: 0.043735 ms CreateObjectMapping: 0.003889 ms MarkObjects: 1.807428 ms  DeleteObjects: 0.003801 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.995502 ms (FindLiveObjects: 0.215200 ms CreateObjectMapping: 0.005745 ms MarkObjects: 1.768642 ms  DeleteObjects: 0.004662 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.992567 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b108ebf1b50d074d0b9b74ff06261eff') in 0.013126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.845440 seconds.
+  path: 
+  artifactKey: Guid(2386f8d3c24f74f03a4a9e2b0e1e5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2386f8d3c24f74f03a4a9e2b0e1e5820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '2386f8d3c24f74f03a4a9e2b0e1e5820')
+  ERROR: Unknown asset with GUID '2386f8d3c24f74f03a4a9e2b0e1e5820'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 81.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.111438 ms (FindLiveObjects: 0.044255 ms CreateObjectMapping: 0.004383 ms MarkObjects: 2.056799 ms  DeleteObjects: 0.004688 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.109812 ms (FindLiveObjects: 0.042372 ms CreateObjectMapping: 0.004149 ms MarkObjects: 2.055289 ms  DeleteObjects: 0.006330 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.334054 ms (FindLiveObjects: 0.043274 ms CreateObjectMapping: 0.004671 ms MarkObjects: 2.280050 ms  DeleteObjects: 0.004804 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.907519 ms (FindLiveObjects: 0.043305 ms CreateObjectMapping: 0.003931 ms MarkObjects: 1.854399 ms  DeleteObjects: 0.004203 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.382 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.4 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.042607 ms (FindLiveObjects: 0.041907 ms CreateObjectMapping: 0.003685 ms MarkObjects: 1.990445 ms  DeleteObjects: 0.005164 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.082437 ms (FindLiveObjects: 0.043147 ms CreateObjectMapping: 0.003969 ms MarkObjects: 2.029656 ms  DeleteObjects: 0.004387 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.970938 ms (FindLiveObjects: 0.048226 ms CreateObjectMapping: 0.004940 ms MarkObjects: 1.912140 ms  DeleteObjects: 0.004350 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 487.775406 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 3.740254 seconds.
+  path: 
+  artifactKey: Guid(b228dd4ad95f6444c996d82586f2c1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b228dd4ad95f6444c996d82586f2c1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000045 seconds  code(3) message(Unknown asset with GUID 'b228dd4ad95f6444c996d82586f2c1f8')
+  ERROR: Unknown asset with GUID 'b228dd4ad95f6444c996d82586f2c1f8'
+========================================================================
+Received Import Request.
+  Time since last request: 115.528584 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 9.521640 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000042 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 82.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.731688 ms (FindLiveObjects: 0.038136 ms CreateObjectMapping: 0.003444 ms MarkObjects: 1.681555 ms  DeleteObjects: 0.007112 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.682681 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000040 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 82.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.938698 ms (FindLiveObjects: 0.039851 ms CreateObjectMapping: 0.003289 ms MarkObjects: 1.889124 ms  DeleteObjects: 0.004841 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1676.879561 seconds.
+  path: 
+  artifactKey: Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(76f779185df644522ae75f1f4a981cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000049 seconds  code(3) message(Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf')
+  ERROR: Unknown asset with GUID '76f779185df644522ae75f1f4a981cdf'
+========================================================================
+Received Import Request.
+  Time since last request: 5.373274 seconds.
+  path: 
+  artifactKey: Guid(0572cf54aa2f14b59805a7fca3e9a4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(0572cf54aa2f14b59805a7fca3e9a4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000054 seconds  code(3) message(Unknown asset with GUID '0572cf54aa2f14b59805a7fca3e9a4c1')
+  ERROR: Unknown asset with GUID '0572cf54aa2f14b59805a7fca3e9a4c1'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.0 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.410296 ms (FindLiveObjects: 0.045782 ms CreateObjectMapping: 0.004357 ms MarkObjects: 2.349562 ms  DeleteObjects: 0.008636 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.808909 seconds.
+  path: 
+  artifactKey: Guid(2edf4fc76a92a41ca8c58dce92bcca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2edf4fc76a92a41ca8c58dce92bcca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000052 seconds  code(3) message(Unknown asset with GUID '2edf4fc76a92a41ca8c58dce92bcca27')
+  ERROR: Unknown asset with GUID '2edf4fc76a92a41ca8c58dce92bcca27'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.2 MB.
+System memory in use after: 83.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.936538 ms (FindLiveObjects: 0.039684 ms CreateObjectMapping: 0.003939 ms MarkObjects: 1.886068 ms  DeleteObjects: 0.005625 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.368 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.3 MB.
+System memory in use after: 83.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.737448 ms (FindLiveObjects: 0.046994 ms CreateObjectMapping: 0.004124 ms MarkObjects: 1.680155 ms  DeleteObjects: 0.004668 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.692446 ms (FindLiveObjects: 0.039475 ms CreateObjectMapping: 0.003881 ms MarkObjects: 1.643626 ms  DeleteObjects: 0.004208 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.131476 ms (FindLiveObjects: 0.043305 ms CreateObjectMapping: 0.003905 ms MarkObjects: 2.077316 ms  DeleteObjects: 0.005416 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 83.8 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.053586 ms (FindLiveObjects: 0.046891 ms CreateObjectMapping: 0.004529 ms MarkObjects: 1.996373 ms  DeleteObjects: 0.004333 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.366 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.896812 ms (FindLiveObjects: 0.040438 ms CreateObjectMapping: 0.003538 ms MarkObjects: 1.847187 ms  DeleteObjects: 0.004446 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 84.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.166957 ms (FindLiveObjects: 0.042301 ms CreateObjectMapping: 0.004048 ms MarkObjects: 2.114884 ms  DeleteObjects: 0.004582 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2075.148939 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b108ebf1b50d074d0b9b74ff06261eff') in 0.052839 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 84.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.967924 ms (FindLiveObjects: 0.041522 ms CreateObjectMapping: 0.004479 ms MarkObjects: 1.915842 ms  DeleteObjects: 0.004528 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.463538 seconds.
+  path: 
+  artifactKey: Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(bf07c50a9b49a419b9b8152f10b71676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000044 seconds  code(3) message(Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676')
+  ERROR: Unknown asset with GUID 'bf07c50a9b49a419b9b8152f10b71676'
+========================================================================
+Received Import Request.
+  Time since last request: 4.405388 seconds.
+  path: 
+  artifactKey: Guid(67675362c82d843348b85f087075382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(67675362c82d843348b85f087075382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000046 seconds  code(3) message(Unknown asset with GUID '67675362c82d843348b85f087075382d')
+  ERROR: Unknown asset with GUID '67675362c82d843348b85f087075382d'
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.070476 ms (FindLiveObjects: 0.044402 ms CreateObjectMapping: 0.004102 ms MarkObjects: 2.015252 ms  DeleteObjects: 0.005493 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.029141 ms (FindLiveObjects: 0.041653 ms CreateObjectMapping: 0.004133 ms MarkObjects: 1.976588 ms  DeleteObjects: 0.005178 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.971486 ms (FindLiveObjects: 0.043669 ms CreateObjectMapping: 0.004080 ms MarkObjects: 1.916468 ms  DeleteObjects: 0.005773 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.372 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.209671 ms (FindLiveObjects: 0.050279 ms CreateObjectMapping: 0.004570 ms MarkObjects: 2.147376 ms  DeleteObjects: 0.005590 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.902220 ms (FindLiveObjects: 0.037553 ms CreateObjectMapping: 0.003841 ms MarkObjects: 1.853221 ms  DeleteObjects: 0.006092 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 2.037156 ms (FindLiveObjects: 0.039659 ms CreateObjectMapping: 0.003642 ms MarkObjects: 1.987184 ms  DeleteObjects: 0.004970 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000003 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 459.
+Total: 1.949575 ms (FindLiveObjects: 0.039880 ms CreateObjectMapping: 0.003813 ms MarkObjects: 1.899673 ms  DeleteObjects: 0.004770 ms)
+

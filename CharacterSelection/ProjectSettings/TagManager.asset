@@ -44,6 +44,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 54106725
+    locked: 0
+  - name: Platforms
+    uniqueID: 1608206873
+    locked: 0
   - name: UI
     uniqueID: 315260637
+    locked: 0
+  - name: Character
+    uniqueID: 4235090437
+    locked: 0
+  - name: FadeIn
+    uniqueID: 4030671623
     locked: 0

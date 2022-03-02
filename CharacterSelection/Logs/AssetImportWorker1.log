@@ -1,0 +1,18 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/EditorsFolder/2021.1.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61956
+Successfully changed project path to: /Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
+/Users/admin/Documents/Unity/Learn/CharacterSelect/CharacterSelection
+Using Asset Import Pipeline V2.
