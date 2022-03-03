@@ -34,6 +34,7 @@ public class PlayerControls : MonoBehaviour
     public bool running = false;
     public bool walking;
     public bool atStore = false;
+    public bool atSign = true;
 
     [Header("Jump stuff")]
     public bool jumpPressed;
@@ -57,10 +58,6 @@ public class PlayerControls : MonoBehaviour
     //energy system
     public GameObject meter;
     public EnergyDrain drain;
-
-
-
-
 
 
     void Awake()
@@ -104,9 +101,12 @@ void SetColliderSize()    {
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        input = new PlayerInput();
+        
         interactPressed = context.ReadValueAsButton();
     }
+
+
+
 
     /**
     public void OnMove(InputValue movementValue)
@@ -159,6 +159,10 @@ void SetColliderSize()    {
 
     void FixedUpdate()
     {
+        atSign = false;
+        atStore = false;
+
+
         money.GetComponent<Text>().text = moneyCount.ToString();
 
         horizontal = tempMovement.x;
@@ -172,10 +176,42 @@ void SetColliderSize()    {
 
         if (isJumping)
         {
-        //    float translation = 10f;
-        //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
-        //    isJumping = false;
-        //    drain.currentEffort = EffortType.None;
+            //    float translation = 10f;
+            //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
+            //    isJumping = false;
+            //    drain.currentEffort = EffortType.None;
+        }
+
+        if (interactPressed && atSign)
+        {
+            int range = Random.Range(1, 3);
+            int i = 0;
+            int index = Random.Range(0, tasks.Count - 1);
+            JobType jobType;
+            //col.gameObject.SetActive(false);
+            if (range == 1)
+            {
+                jobType = JobType.Great;
+            }
+            else if (range == 2)
+            {
+                jobType = JobType.Good;
+            }
+            else
+            {
+                jobType = JobType.Poor;
+            }
+            while (i < range)
+            {
+                while (tasks[index].activeSelf == true)
+                {
+                    index = Random.Range(0, tasks.Count - 1);
+                }
+                tasks[index].SetActive(true);
+                tasks[index].GetComponent<Job>().jobType = jobType;
+                activejobs.Add(tasks[index]);
+                i++;
+            }
         }
     }
 
@@ -207,37 +243,14 @@ void SetColliderSize()    {
             atStore = true;
             store = col;
         }
+        //else {atStore = false; }
+
         if (col.CompareTag("Sign"))
         {
-            int range = Random.Range(1, 3);
-            int i = 0;
-            int index = Random.Range(0, tasks.Count - 1);
-            JobType jobType;
-            col.gameObject.SetActive(false);
-            if (range == 1)
-            {
-                jobType = JobType.Great;
-            }
-            else if(range == 2)
-            {
-                jobType = JobType.Good;
-            }
-            else
-            {
-                jobType = JobType.Poor;
-            }
-            while (i < range)
-            {
-                while (tasks[index].activeSelf == true)
-                {
-                    index = Random.Range(0, tasks.Count - 1);
-                }
-                tasks[index].SetActive(true);
-                tasks[index].GetComponent<Job>().jobType = jobType;
-                activejobs.Add(tasks[index]);
-                i++;
-            }
+            atSign = true;
         }
+        //else{ atSign = false; }
+
         if (col.CompareTag("Job"))
         {
             GameObject obj;
@@ -268,6 +281,10 @@ void SetColliderSize()    {
             atStore = false;
             store = null;
             col.isTrigger = false;
+        }
+        if (col.CompareTag("Sign"))
+        {
+            atSign= false;
         }
     }
 
