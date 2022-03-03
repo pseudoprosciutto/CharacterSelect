@@ -1,35 +1,71 @@
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
-public class PlayerControls : MonoBehaviour
+public class OldScriptForPlayerControls : MonoBehaviour
 {
-    float originalXScale;
-    private PlayerInput playerInput;
-    private InputAction jump;
-    private InputAction move;
-    private InputAction interact;
-    private InputAction sprint;
-    private Vector2 movementVector;
-    public int direction = 1;
-    public GameObject meter;
-    public EnergyDrain drain;
+    CharacterSpawn characterInfo; //this holds the size and maybe more info for character.
+    private PlayerInput input;
+    //    private Vector2 movementVector;
+    public Vector2 characterSize;
+    public BoxCollider2D _collider;
+    public Rigidbody2D _rigidbody;
+
     public GameObject player;
-    public bool running;
+    float originalXScale;                   //Original scale on X axis
+
+
+    [Header("Move Value")]
+    public bool moveModifyPressed;
+    public int direction = 1;
+    private Vector2 tempMovement;
+
+    public float horizontal;
+    public float vertical;
+
+    public float speed = 4.2f;                //Player speed
+    public float walkSpeed = 4.2f;                //Player speed
+    public float jumpForce = 25f;
+    public float runSpeed = 6.2f;
+
+    public bool isOnGround;
+    public bool running = false;
     public bool walking;
-    public bool atStore;
+    public bool atStore = false;
+    public bool atSign = true;
+
+    [Header("Jump stuff")]
+    public bool jumpPressed;
+    bool jumpCoolingDown = false;
     public bool isJumping;
+
+    public float maxFallSpeed = -25f;
+    public float coyoteDuration = .05f;     //How long the player can jump after falling
+    float coyoteTime;                       //Variable to hold coyote duration
+
+    [Header("Quest Stuff")]
+    public bool interactPressed;
     public GameObject prompt;
     private Collider2D store;
     public GameObject money;
     public GameObject signPool;
     public int moneyCount;
-    public GameObject pointer;
 
     public List<GameObject> tasks;
     public List<GameObject> activejobs;
+    //energy system
+    public GameObject meter;
+    public EnergyDrain drain;
+
+
+    void Awake()
+    {
+        input = GetComponent<PlayerInput>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -42,28 +78,40 @@ public class PlayerControls : MonoBehaviour
         drain.currentEffort = EffortType.None;
         moneyCount = int.Parse(money.GetComponent<Text>().text);
         tasks = signPool.GetComponent<JobSignPool>().tasks;
-        //gamepad = InputSystem.AddDevice<Gamepad>();
         originalXScale = transform.localScale.x;
+
     }
 
     // Update is called once per frame
-    void Update()
+    void SetColliderSize()
     {
-        if (walking)
-        {
-            if (running)
-            {
-                float move = movementVector.x * 40 * Time.deltaTime;
-                player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-            }
-            else
-            {
-                float move = movementVector.x * 10 * Time.deltaTime;
-                player.GetComponent<Rigidbody2D>().velocity += new Vector2(move, 0);
-            }
-        }
     }
 
+    public void OnMove(InputAction.CallbackContext context)
+    {
+
+        tempMovement = context.ReadValue<Vector2>();
+        horizontal = tempMovement.x;
+        vertical = tempMovement.y;
+    }
+
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        jumpPressed = context.ReadValueAsButton();
+    }
+
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+
+        interactPressed = context.ReadValueAsButton();
+    }
+
+
+
+
+    /**
     public void OnMove(InputValue movementValue)
     {
         if (walking)
@@ -75,15 +123,17 @@ public class PlayerControls : MonoBehaviour
         {
             walking = true;
             movementVector = movementValue.Get<Vector2>();
-            Debug.Log("Triggered");
         }
     }
+    */
 
-    public void OnJump()
-    {
-        isJumping = true;
-        drain.currentEffort = EffortType.Jump;
-    }
+
+
+    //public void OnJump()
+    //{
+    //    isJumping = true;
+    //    drain.currentEffort = EffortType.Jump;
+    //}
 
     public void OnInteraction()
     {
@@ -112,33 +162,36 @@ public class PlayerControls : MonoBehaviour
 
     void FixedUpdate()
     {
+        atSign = false;
+        atStore = false;
+
+
         money.GetComponent<Text>().text = moneyCount.ToString();
+
+        horizontal = tempMovement.x;
+        vertical = tempMovement.y;
+
+        //Calculate the desired velocity based on inputs
+        float xVelocity = speed * horizontal;
+
+        if (xVelocity * direction < 0f)
+            FlipCharacterDirection();
+
         if (isJumping)
         {
-            float translation = 10f;
-            player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
-            isJumping = false;
-            drain.currentEffort = EffortType.None;
+            //    float translation = 10f;
+            //    player.GetComponent<Rigidbody2D>().velocity += new Vector2(0, translation);
+            //    isJumping = false;
+            //    drain.currentEffort = EffortType.None;
         }
-        if (movementVector.x * direction < 0f)
-            FlipCharacterDirection();
-    }
 
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.CompareTag("Food"))
-        {
-            prompt.SetActive(true);
-            atStore = true;
-            store = col;
-        }
-        if (col.CompareTag("Sign"))
+        if (interactPressed && atSign)
         {
             int range = Random.Range(1, 3);
             int i = 0;
             int index = Random.Range(0, tasks.Count - 1);
             JobType jobType;
-            col.gameObject.SetActive(false);
+            //col.gameObject.SetActive(false);
             if (range == 1)
             {
                 jobType = JobType.Great;
@@ -162,8 +215,45 @@ public class PlayerControls : MonoBehaviour
                 activejobs.Add(tasks[index]);
                 i++;
             }
-            pointer.SetActive(true);
         }
+    }
+
+
+    /// <summary>
+    /// Change the characters direction for facing orientation
+    /// </summary>
+    void FlipCharacterDirection()
+    {
+        //Turn the character by flipping the direction
+        direction *= -1;
+
+        //Record the current scale
+        Vector3 scale = transform.localScale;
+
+        //Set the X scale to be the original times the direction
+        scale.x = originalXScale * direction;
+
+        //Apply the new scale
+        transform.localScale = scale;
+    }
+
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Food"))
+        {
+            prompt.SetActive(true);
+            atStore = true;
+            store = col;
+        }
+        //else {atStore = false; }
+
+        if (col.CompareTag("Sign"))
+        {
+            atSign = true;
+        }
+        //else{ atSign = false; }
+
         if (col.CompareTag("Job"))
         {
             GameObject obj;
@@ -195,6 +285,10 @@ public class PlayerControls : MonoBehaviour
             store = null;
             col.isTrigger = false;
         }
+        if (col.CompareTag("Sign"))
+        {
+            atSign = false;
+        }
     }
 
     void OnCollisionExit2D(Collision2D col)
@@ -203,22 +297,5 @@ public class PlayerControls : MonoBehaviour
         {
             col.collider.isTrigger = true;
         }
-    }
-    /// <summary>
-    /// Change the characters direction for facing orientation
-    /// </summary>
-    void FlipCharacterDirection()
-    {
-        //Turn the character by flipping the direction
-        direction *= -1;
-
-        //Record the current scale
-        Vector3 scale = transform.localScale;
-
-        //Set the X scale to be the original times the direction
-        scale.x = originalXScale * direction;
-
-        //Apply the new scale
-        transform.localScale = scale;
     }
 }

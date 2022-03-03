@@ -1347,7 +1347,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.135849, y: 1}
+    m_SensorSize: {x: 1.5995455, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -9757,36 +9757,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf9641d42eb55564b93bdfeb1893fa1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterSize: {x: 0, y: 0}
-  _collider: {fileID: 1948141508}
-  _rigidbody: {fileID: 1948141505}
-  player: {fileID: 1948141504}
-  moveModifyPressed: 0
   direction: 1
-  horizontal: 0
-  vertical: 0
-  speed: 4.2
-  walkSpeed: 4.2
-  jumpForce: 25
-  runSpeed: 6.2
-  isOnGround: 0
+  meter: {fileID: 2088384693}
+  drain: {fileID: 0}
+  player: {fileID: 1948141504}
   running: 0
   walking: 0
   atStore: 0
-  atSign: 1
-  jumpPressed: 0
   isJumping: 0
-  maxFallSpeed: -25
-  coyoteDuration: 0.05
-  interactPressed: 0
   prompt: {fileID: 741260467}
   money: {fileID: 143389296}
   signPool: {fileID: 1034430622}
   moneyCount: 0
+  pointer: {fileID: 0}
   tasks: []
   activejobs: []
-  meter: {fileID: 2088384693}
-  drain: {fileID: 0}
 --- !u!114 &1948141510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9800,7 +9785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: fcfe6de5e8dee68488487fb6b8d9b7d6, type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
